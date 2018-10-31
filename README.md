@@ -14,10 +14,26 @@ Once this is done, we are ready to move to the next step (transferring generated
 
 ## Step 3: Transfer zarr dataset to S3
 
-    $ cd /glade/scratch/abanihi/data/AWS/
+    $ cd /glade/scratch/abanihi/data/
   
-    $ aws s3 cp --recursive lens/ s3:://zarr-test-bucket 
+
+```bash
+abanihi@cheyenne2: /glade/scratch/abanihi/data $ time aws s3 cp --recursive AWS/ s3://zarr-test-bucket --quiet
+
+real    22m5.465s
+user    14m26.092s
+sys     1m46.620s
+
+abanihi@cheyenne2: /glade/scratch/abanihi/data $ du -s AWS/ -h
+9.7G    AWS/
+```
 
 
+
+## Data Transfer Time
+
+| Data size in (GB) | Transfer time (s)  | Transfer Rate (MBps) |
+|-------------------|--------------------|----------------------|
+| 9.7               | 972.712            | 10.2                 |
 
 
