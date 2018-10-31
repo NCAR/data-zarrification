@@ -5,6 +5,7 @@ Large-scale netCDF→ zarr conversion
 ## Step 1: netCDF to Zarr conversion via `xarray`
 
 [Case 1: Notebook](notebooks/case-b.e11.BRCP85C5CNBDRD.ipynb)
+
 [Case 2: Notebook](notebooks/case-b.e11.B20TRC5CNBDRD.ipynb)
 
 ## Step 2: Configure awscli
