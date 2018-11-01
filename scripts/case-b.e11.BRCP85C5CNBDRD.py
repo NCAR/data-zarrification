@@ -10,7 +10,7 @@ def write_zarr_to_s3(dset, d):
 
 if __name__ == '__main__':
 
-    client = Client(processes=False)
+    client = Client(n_workers=2, threads_per_worker=72, processes=False)
     print(client)
 
     root_dir = Path("/glade/p_old/cesmLE/CESM-CAM5-BGC-LE/atm/proc/tseries/monthly/TS")
@@ -34,10 +34,10 @@ if __name__ == '__main__':
   
 
     # Output: S3 Bucket 
-    f_zarr = f'zarr-test-bucket/direct/test02/{CASE}'
+    f_zarr = f'zarr-test-bucket/lens/{CASE}'
 
     # write data using xarray.to_zarr()
     fs = s3fs.S3FileSystem(anon=False)
     d = s3fs.S3Map(f_zarr, s3=fs)
-    print(timeit.timeit("write_zarr_to_s3(dset, d)", globals=globals()))
+    print(timeit.timeit("write_zarr_to_s3(dset, d)", globals=globals(), number=10))
 
