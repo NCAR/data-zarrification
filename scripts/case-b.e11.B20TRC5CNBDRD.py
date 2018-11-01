@@ -33,5 +33,5 @@ if __name__ == '__main__':
     d = s3fs.S3Map(f_zarr, s3=fs)
    
     setup = "from __main__ import write_zarr_to_s3"
-    print(timeit.timeit("write_zarr_to_s3(dset, d)", setup=setup)
+    print(timeit.timeit("write_zarr_to_s3(dset, d)", setup=setup))
 
