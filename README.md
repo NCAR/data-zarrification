@@ -18,7 +18,7 @@ Large-scale netCDF→ zarr conversion
 | 5.1               | (1, 129, 289, 288)  | 439.0              | 95                |
 
 **Dask configuration**
-- 2 worker
+- 2 workers on the same machine
 - 72 threads per worker
 
 | Data size in (GB) | Chunk size          | Transfer time (s)  | Throughput (Mb/s) |
