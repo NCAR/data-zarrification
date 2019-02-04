@@ -1,0 +1,15 @@
+name: lens
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - jupyterlab
+  - nb_conda_kernels
+  - watermark
+  - xarray
+  - zarr
+  - dask
+  - numpy
+  - pip:
+    - bash_kernel
+    - globus-cli
