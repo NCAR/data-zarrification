@@ -5,6 +5,8 @@ dependencies:
   - python=3.6
   - jupyterlab
   - nb_conda_kernels
+  - dask-jobqueue
+  - nbserverproxy
   - watermark
   - xarray
   - zarr
