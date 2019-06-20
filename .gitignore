@@ -105,3 +105,4 @@ venv.bak/
 
 /dask-worker-space
 *.nc
+slurm-*
