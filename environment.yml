@@ -4,14 +4,15 @@ channels:
 dependencies:
   - python=3.6
   - jupyterlab
-  - nb_conda_kernels
-  - dask-jobqueue
-  - nbserverproxy
   - watermark
   - xarray
+  - intake
+  - intake-xarray
   - zarr
   - dask
+  - distributed
   - numpy
+  - pip
   - pip:
-    - bash_kernel
-    - globus-cli
+    - git+https://github.com/andersy005/intake-esm.git
+

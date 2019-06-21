@@ -1,0 +1,7 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "nlat",
+        "nlon"
+    ],
+    "long_name": "k Index of Deepest Grid Cell on T Grid"
+}

@@ -1,0 +1,8 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "transport_reg",
+        "nchar"
+    ],
+    "long_name": "regions for all transport diagnostics",
+    "units": ""
+}

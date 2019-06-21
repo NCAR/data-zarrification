@@ -1,0 +1,10 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "moc_z"
+    ],
+    "long_name": "depth from surface to top of layer",
+    "positive": "down",
+    "units": "centimeters",
+    "valid_max": 549999.0625,
+    "valid_min": 0.0
+}

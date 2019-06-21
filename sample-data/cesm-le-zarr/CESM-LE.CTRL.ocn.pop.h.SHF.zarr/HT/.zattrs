@@ -1,0 +1,8 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "nlat",
+        "nlon"
+    ],
+    "long_name": "ocean depth at T points",
+    "units": "centimeter"
+}

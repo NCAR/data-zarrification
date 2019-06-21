@@ -1,0 +1,10 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "z_t_150m"
+    ],
+    "long_name": "depth from surface to midpoint of layer",
+    "positive": "down",
+    "units": "centimeters",
+    "valid_max": 14500.0,
+    "valid_min": 500.0
+}

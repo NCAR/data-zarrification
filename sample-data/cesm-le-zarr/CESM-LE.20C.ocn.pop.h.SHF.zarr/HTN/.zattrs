@@ -1,0 +1,8 @@
+{
+    "_ARRAY_DIMENSIONS": [
+        "nlat",
+        "nlon"
+    ],
+    "long_name": "cell widths on North sides of T cell",
+    "units": "centimeters"
+}
