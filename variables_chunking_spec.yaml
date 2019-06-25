@@ -7,14 +7,18 @@ ocn:
           - SST
           - SSH
         chunks:
-          time: 24
+          time: 120
+          nlat: 192
+          nlon: 160
 
       3D:
         variables:
           - SALT
         chunks:
-          time: 24
-          z_t: 1
+          time: 120
+          z_t: 6
+          nlat: 192
+          nlon: 160
 
     frequency: monthly
 
@@ -28,7 +32,7 @@ ice:
           - hi_nh
           - hi_sh
         chunks:
-          time: 24
+          time: 240
     frequency: monthly
 
 atm:
@@ -42,7 +46,9 @@ atm:
           - Q
           - Z3
         chunks:
-          time: 24
+          time: 120
+          lat: 96
+          lon: 72
       3D:
         variables:
           - FLNS
@@ -65,34 +71,42 @@ atm:
           - TREFHTMX
           - TS
         chunks:
-          time: 12
+          time: 120
     frequency: monthly
 lnd:
   clm2.h0:
     variable_category:
-      2D:
+      3D_2D:
         variables:
           - FSNO
           - H2OSNO
           - QRUNOFF
           - RAIN
           - SNOW
-          - SOILLIQ
           - SOILWATER_10CM
+          - SOILLIQ
         chunks:
-          time: 24
+          time: 480
+          lat: 96
+          lon: 144
+          levgrnd: 3
+          levlak: 2
+     
+
     frequency: monthly
-  clm2.h1:
-    variable_category:
-      2D:
-        variables:
-          - FSNO
-          - H2OSNO
-          - QRUNOFF
-          - RAIN
-          - SNOW
-          - SOILLIQ
-          - SOILWATER_10CM
-        chunks:
-          time: 100
-    frequency: daily
+  # clm2.h1:
+  #   variable_category:
+  #     2D:
+  #       variables:
+  #         - FSNO
+  #         - H2OSNO
+  #         - QRUNOFF
+  #         - RAIN
+  #         - SNOW
+  #         - SOILLIQ
+  #         - SOILWATER_10CM
+  #       chunks:
+  #         time: 480
+  #         lat: 96
+  #         lon: 144
+  #   frequency: daily
