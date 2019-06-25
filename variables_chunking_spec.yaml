@@ -1,0 +1,90 @@
+# zarr requirement: chunk size divides evenly into dim size
+ocn:
+  pop.h:
+    2D:
+      variables:
+      - SST
+      - SSH 
+      chunks:
+        time: 12
+
+    3D:
+      variables:
+        - SALT
+      chunks:
+        time: 12
+        z_t: 20
+        nlat: 128
+        nlon: 80
+
+
+ice:
+  cice.h:
+    2D:
+      variables:
+        - aice_nh
+        - aice_sh
+        - hi_nh
+        - hi_sh
+      chunks:
+        time: 12 
+
+atm:
+  cam.h0:
+    2D:
+      variables:
+        - T
+        - U
+        - v
+        - Q
+        - Z3
+      chunks:
+        time:  12
+    3D:
+      variables:
+        - FLNS
+        - FLNSC
+        - FLUT
+        - FSNS
+        - FSNSC
+        - FSNTOA
+        - ICEFRAC
+        - LHFLX
+        - PRECC
+        - PRECL
+        - PRECSC
+        - PRECSL
+        - PSL
+        - SHFLX
+        - TMQ
+        - TREFHT
+        - TREFHTMN
+        - TREFHTMX
+        - TS
+      chunks:
+        time: 12
+lnd:
+  clm2.h0:
+    2D:
+      variables:
+        - FSNO 
+        - H2OSNO
+        - QRUNOFF
+        - RAIN
+        - SNOW
+        - SOILLIQ
+        - SOILWATER_10CM
+      chunks:
+        time: 12 
+  clm2.h1:
+    2D:
+      variables:
+        - FSNO 
+        - H2OSNO
+        - QRUNOFF
+        - RAIN
+        - SNOW
+        - SOILLIQ
+        - SOILWATER_10CM
+      chunks:
+        time: 30 
