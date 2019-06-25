@@ -1,8 +1,0 @@
-{
-    "_ARRAY_DIMENSIONS": [
-        "nlat",
-        "nlon"
-    ],
-    "long_name": "cell widths on South sides of U cell",
-    "units": "centimeters"
-}

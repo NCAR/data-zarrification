@@ -1,8 +1,0 @@
-{
-    "_ARRAY_DIMENSIONS": [
-        "transport_comp",
-        "nchar"
-    ],
-    "long_name": "T,S transport components",
-    "units": ""
-}

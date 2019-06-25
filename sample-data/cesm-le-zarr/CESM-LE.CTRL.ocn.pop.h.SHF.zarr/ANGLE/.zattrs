@@ -1,8 +1,0 @@
-{
-    "_ARRAY_DIMENSIONS": [
-        "nlat",
-        "nlon"
-    ],
-    "long_name": "angle grid makes with latitude line",
-    "units": "radians"
-}

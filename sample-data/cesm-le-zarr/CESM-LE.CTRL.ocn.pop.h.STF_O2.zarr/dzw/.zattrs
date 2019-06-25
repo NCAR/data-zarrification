@@ -1,7 +1,0 @@
-{
-    "_ARRAY_DIMENSIONS": [
-        "z_w"
-    ],
-    "long_name": "midpoint of k to midpoint of k+1",
-    "units": "centimeters"
-}

@@ -1,7 +1,0 @@
-{
-    "_ARRAY_DIMENSIONS": [
-        "z_t"
-    ],
-    "long_name": "thickness of layer k",
-    "units": "centimeters"
-}
