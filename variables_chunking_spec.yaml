@@ -9,9 +9,9 @@ ocn:
         chunks:
           time: 12
           member_id: 40
-          # nlat: 192
-          # nlon: 160
-
+#           nlat: 384
+#           nlon: 320
+          
       3D:
         variables:
           - SALT
@@ -19,66 +19,83 @@ ocn:
           time: 12
           z_t: 1
           member_id: 40 
-          # nlat: 192
-          # nlon: 160
+#           nlat: 384
+#           nlon: 320
+          
 
     frequency: monthly
 
 ice:
   cice.h:
     variable_category:
-      2D:
+      NH:
         variables:
           - aice_nh
-          - aice_sh
           - hi_nh
+        chunks:
+          time: 12
+          member_id: 40
+#           nj: 104
+#           ni: 320
+      SH:
+        variables:
+          - aice_sh
           - hi_sh
         chunks:
           time: 12
+          member_id: 40
+#           nj: 76
+#           ni: 320
     frequency: monthly
 
 atm:
   cam.h0:
     variable_category:
-      2D:
+      3D:
         variables:
           - T
           - U
-          - v
+          - V
           - Q
           - Z3
         chunks:
           time: 12
-          # lat: 96
-          # lon: 72
-      3D:
+          lev: 1
+          member_id: 40
+#           lat: 192
+#           lon: 288
+          
+      2D:
         variables:
           - FLNS
           - FLNSC
-          # - FLUT
-          # - FSNS
-          # - FSNSC
-          # - FSNTOA
-          # - ICEFRAC
-          # - LHFLX
-          # - PRECC
-          # - PRECL
-          # - PRECSC
-          # - PRECSL
-          # - PSL
-          # - SHFLX
-          # - TMQ
-          # - TREFHT
-          # - TREFHTMN
-          # - TREFHTMX
-          # - TS
+          - FLUT
+          - FSNS
+          - FSNSC
+          - FSNTOA
+          - ICEFRAC
+          - LHFLX
+          - PRECC
+          - PRECL
+          - PRECSC
+          - PRECSL
+          - PSL
+          - SHFLX
+          - TMQ
+          - TREFHT
+          - TREFHTMN
+          - TREFHTMX
+          - TS
         chunks:
           time: 12
+          member_id: 40
+#           lat: 192
+#           lon: 288
     frequency: monthly
 lnd:
   clm2.h0:
     variable_category:
-      3D_2D:
+      2D:
         variables:
           - FSNO
           - H2OSNO
@@ -86,29 +103,37 @@ lnd:
           - RAIN
           - SNOW
           - SOILWATER_10CM
+        chunks:
+          time: 12
+          member_id: 40
+#           lat: 192
+#           lon: 288
+      3D:
+        variables:
           - SOILLIQ
         chunks:
           time: 12
-          # lat: 96
-          # lon: 144
           levgrnd: 1
-          levlak: 1
-     
-
+          member_id: 40
+#           lat: 192
+#           lon: 288
     frequency: monthly
-  # clm2.h1:
-  #   variable_category:
-  #     2D:
-  #       variables:
-  #         - FSNO
-  #         - H2OSNO
-  #         - QRUNOFF
-  #         - RAIN
-  #         - SNOW
-  #         - SOILLIQ
-  #         - SOILWATER_10CM
-  #       chunks:
-  #         time: 480
-  #         lat: 96
-  #         lon: 144
-  #   frequency: daily
+    
+    
+#   clm2.h1:
+#     variable_category:
+#       2D:
+#         variables:
+#           - FSNO
+#           - H2OSNO
+#           - QRUNOFF
+#           - RAIN
+#           - SNOW
+#           - SOILLIQ
+#           - SOILWATER_10CM
+#         chunks:
+#           time: 4
+#           member_id: 40   
+# #           lat: 192
+# #           lon: 288
+#     frequency: daily

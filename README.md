@@ -1,3 +1,2 @@
+# Zarr-ification of CESM LENS data for AWS Transfer
 
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/NCAR/lens-on-aws/master)
