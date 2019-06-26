@@ -7,18 +7,20 @@ ocn:
           - SST
           - SSH
         chunks:
-          time: 120
-          nlat: 192
-          nlon: 160
+          time: 12
+          member_id: 40
+          # nlat: 192
+          # nlon: 160
 
       3D:
         variables:
           - SALT
         chunks:
-          time: 120
-          z_t: 6
-          nlat: 192
-          nlon: 160
+          time: 12
+          z_t: 1
+          member_id: 40 
+          # nlat: 192
+          # nlon: 160
 
     frequency: monthly
 
@@ -32,7 +34,7 @@ ice:
           - hi_nh
           - hi_sh
         chunks:
-          time: 240
+          time: 12
     frequency: monthly
 
 atm:
@@ -46,32 +48,32 @@ atm:
           - Q
           - Z3
         chunks:
-          time: 120
-          lat: 96
-          lon: 72
+          time: 12
+          # lat: 96
+          # lon: 72
       3D:
         variables:
           - FLNS
           - FLNSC
-          - FLUT
-          - FSNS
-          - FSNSC
-          - FSNTOA
-          - ICEFRAC
-          - LHFLX
-          - PRECC
-          - PRECL
-          - PRECSC
-          - PRECSL
-          - PSL
-          - SHFLX
-          - TMQ
-          - TREFHT
-          - TREFHTMN
-          - TREFHTMX
-          - TS
+          # - FLUT
+          # - FSNS
+          # - FSNSC
+          # - FSNTOA
+          # - ICEFRAC
+          # - LHFLX
+          # - PRECC
+          # - PRECL
+          # - PRECSC
+          # - PRECSL
+          # - PSL
+          # - SHFLX
+          # - TMQ
+          # - TREFHT
+          # - TREFHTMN
+          # - TREFHTMX
+          # - TS
         chunks:
-          time: 120
+          time: 12
     frequency: monthly
 lnd:
   clm2.h0:
@@ -86,11 +88,11 @@ lnd:
           - SOILWATER_10CM
           - SOILLIQ
         chunks:
-          time: 480
-          lat: 96
-          lon: 144
-          levgrnd: 3
-          levlak: 2
+          time: 12
+          # lat: 96
+          # lon: 144
+          levgrnd: 1
+          levlak: 1
      
 
     frequency: monthly
