@@ -1,0 +1,359 @@
+name: cesm1-le
+collection_type: cesm
+data_sources:
+  CTRL:
+    locations:
+      - name: glade
+        loc_type: posix
+        direct_access: True
+        urlpath: /glade/collections/cdg/data/cesmLE/CESM-CAM5-BGC-LE
+    extra_attributes:
+      component_attrs:
+        ocn:
+          grid: POP_gx1v6
+      case_members:
+        - case: b.e11.B1850C5CN.f09_g16.005
+          ctrl_branch_year: 1
+
+  20C:
+    locations:
+      - name: glade
+        loc_type: posix
+        direct_access: True
+        urlpath: /glade/collections/cdg/data/cesmLE/CESM-CAM5-BGC-LE
+    extra_attributes:
+       component_attrs:
+         ocn:
+           grid: POP_gx1v6
+       case_members:
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.001
+           member_id: 1
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.002
+           member_id: 2
+           ctrl_member_id: 2
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.003
+           member_id: 3
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.004
+           member_id: 4
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.005
+           member_id: 5
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.006
+           member_id: 6
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.007
+           member_id: 7
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.008
+           member_id: 8
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.009
+           member_id: 9
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.010
+           member_id: 10
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.011
+           member_id: 11
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.012
+           member_id: 12
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.013
+           member_id: 13
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.014
+           member_id: 14
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.015
+           member_id: 15
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.016
+           member_id: 16
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.017
+           member_id: 17
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.018
+           member_id: 18
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.019
+           member_id: 19
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.020
+           member_id: 20
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.021
+           member_id: 21
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.022
+           member_id: 22
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.023
+           member_id: 23
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.024
+           member_id: 24
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.025
+           member_id: 25
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.026
+           member_id: 26
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.027
+           member_id: 27
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.028
+           member_id: 28
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.029
+           member_id: 29
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.030
+           member_id: 30
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.031
+           member_id: 31
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.032
+           member_id: 32
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.033
+           member_id: 33
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.034
+           member_id: 34
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.035
+           member_id: 35
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.101
+           member_id: 101
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.102
+           member_id: 102
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.103
+           member_id: 103
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.104
+           member_id: 104
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+         - case: b.e11.B20TRC5CNBDRD.f09_g16.105
+           member_id: 105
+           ctrl_member_id: 1
+           ctrl_experiment: piControl
+  RCP85:
+    locations:
+      - name: glade
+        loc_type: posix
+        direct_access: True
+        urlpath: /glade/collections/cdg/data/cesmLE/CESM-CAM5-BGC-LE
+    extra_attributes:
+       component_attrs:
+         ocn:
+           grid: POP_gx1v6
+       case_members:
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.001
+           member_id: 1
+           ctrl_member_id: 1
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.002
+           member_id: 2
+           ctrl_member_id: 2
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.003
+           member_id: 3
+           ctrl_member_id: 3
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.004
+           member_id: 4
+           ctrl_member_id: 4
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.005
+           member_id: 5
+           ctrl_member_id: 5
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.006
+           member_id: 6
+           ctrl_member_id: 6
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.007
+           member_id: 7
+           ctrl_member_id: 7
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.008
+           member_id: 8
+           ctrl_member_id: 8
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.009
+           member_id: 9
+           ctrl_member_id: 9
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.010
+           member_id: 10
+           ctrl_member_id: 10
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.011
+           member_id: 11
+           ctrl_member_id: 11
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.012
+           member_id: 12
+           ctrl_member_id: 12
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.013
+           member_id: 13
+           ctrl_member_id: 13
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.014
+           member_id: 14
+           ctrl_member_id: 14
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.015
+           member_id: 15
+           ctrl_member_id: 15
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.016
+           member_id: 16
+           ctrl_member_id: 16
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.017
+           member_id: 17
+           ctrl_member_id: 17
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.018
+           member_id: 18
+           ctrl_member_id: 18
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.019
+           member_id: 19
+           ctrl_member_id: 19
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.020
+           member_id: 20
+           ctrl_member_id: 20
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.021
+           member_id: 21
+           ctrl_member_id: 21
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.022
+           member_id: 22
+           ctrl_member_id: 22
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.023
+           member_id: 23
+           ctrl_member_id: 23
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.024
+           member_id: 24
+           ctrl_member_id: 24
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.025
+           member_id: 25
+           ctrl_member_id: 25
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.026
+           member_id: 26
+           ctrl_member_id: 26
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.027
+           member_id: 27
+           ctrl_member_id: 27
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.028
+           member_id: 28
+           ctrl_member_id: 28
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.029
+           member_id: 29
+           ctrl_member_id: 29
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.030
+           member_id: 30
+           ctrl_member_id: 30
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.031
+           member_id: 31
+           ctrl_member_id: 31
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.032
+           member_id: 32
+           ctrl_member_id: 32
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.033
+           member_id: 33
+           ctrl_member_id: 33
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.034
+           member_id: 34
+           ctrl_member_id: 34
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.035
+           member_id: 35
+           ctrl_member_id: 35
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.101
+           member_id: 101
+           ctrl_member_id: 101
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.102
+           member_id: 102
+           ctrl_member_id: 102
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.103
+           member_id: 103
+           ctrl_member_id: 103
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.104
+           member_id: 104
+           ctrl_member_id: 104
+           ctrl_experiment: 20C
+         - case: b.e11.BRCP85C5CNBDRD.f09_g16.105
+           member_id: 105
+           ctrl_member_id: 105
+           ctrl_experiment: 20C
