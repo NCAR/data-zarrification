@@ -1,18 +1,15 @@
-name: lens
+name: lens-conversion
 channels:
   - conda-forge
 dependencies:
-  - python=3.6
+  - python=3.8
   - jupyterlab
   - watermark
   - xarray
   - intake
-  - intake-xarray
   - zarr
   - dask
   - distributed
   - numpy
   - pip
-  - pip:
-    - git+https://github.com/andersy005/intake-esm.git
-
+  - intake-esm==2020.3.16.1
