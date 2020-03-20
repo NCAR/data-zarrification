@@ -65,10 +65,8 @@ def zarr_store(exp, cmp, frequency, var, write=False, dirout=dirout):
     return path
 
 
-def save_data(ds, var, chunkspec, store):
+def save_data(ds, store):
     try:
-        ds = ds.chunk(chunkspec)
-        print_ds_info(ds, var)
         ds.to_zarr(store, consolidated=True)
         del ds
     except Exception as e:
@@ -77,10 +75,7 @@ def save_data(ds, var, chunkspec, store):
 
 def show_ds_info(datasets):
     # Get a list of variable names
-    varnames = []
-    for dataset in datasets:
-        varname = dataset.split('.')[-1]
-        varnames.append(varname)
-        for variable, ds in zip(varnames, datasets.values()):
-            print_ds_info(ds, variable)
-            print('\n')
+    for key, ds in datasets.items():
+        variable = key.split('.')[-1]
+        print_ds_info(ds, variable)
+        print('\n')
