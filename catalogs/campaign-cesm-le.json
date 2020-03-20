@@ -2,7 +2,7 @@
   "esmcat_version": "0.1.0",
   "id": "campaign-cesm1-le",
   "description": "ESM collection for the CESM1 LENS data stored on GLADE in /glade/campaign/cesm/collections/cesmLE/CESM-CAM5-BGC-LE",
-  "catalog_file": "./campaign-cesm1-le.csv.gz",
+  "catalog_file": "glade-campaign-cesm1-le.csv",
   "attributes": [
     {
       "column_name": "experiment",
