@@ -4,12 +4,19 @@ channels:
 dependencies:
   - python=3.8
   - jupyterlab
+  - bokeh==1.4.0
   - watermark
   - xarray
+  - netcdf4
   - intake
   - zarr
   - dask
   - distributed
   - numpy
+  - ipywidgets
   - pip
   - intake-esm==2020.3.16.1
+  - dask-jobqueue
+  - tqdm
+  - pip:
+       - ncar-jobqueue
