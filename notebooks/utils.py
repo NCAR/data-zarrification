@@ -33,6 +33,13 @@ def _restore_non_dim_coords(ds):
     """restore non_dim_coords to variables"""
     non_dim_coords_reset = set(ds.coords) - set(ds.dims)
     ds = ds.reset_coords(non_dim_coords_reset)
+
+    # Address undesirable coordinates issue
+    # https://xarray.pydata.org/en/stable/io.html#io-coordinates
+    for variable in ds.variables:
+        if 'coordinates' in ds[variable].encoding:
+            del ds[variable].encoding['coordinates']
+
     return ds
 
 
