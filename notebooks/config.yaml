@@ -1,0 +1,72 @@
+ocn:
+  pop.h:
+    frequency: monthly
+    stream: pop.h
+    variable_category:
+        2D:
+            variable:
+              - SST
+              - SSH
+              - SFWF
+              - SHF
+            experiment:
+                CTRL:
+                    chunks:
+                      time: 300
+                      nlat: -1
+                      nlon: -1
+                      z_t: -1
+                      z_w_top: -1
+                      z_w_bot: -1
+#              20C:
+#                 chunks:
+#                   time: 300
+#                   nlat: -1
+#                   nlon: -1
+#                   z_t: -1
+#                   z_w_top: -1
+#                   z_w_bot: -1
+#              RCP85:
+#                chunks:
+#                   time: 300
+#                   nlat: -1
+#                   nlon: -1
+#                   z_t: -1
+#                   z_w_top: -1
+#                   z_w_bot: -1
+
+
+        3D:
+            variable:
+              - SALT
+              - TEMP
+              - UVEL
+              - VNS
+              - VNT
+              - VVEL
+              - WVEL
+            experiment:
+             CTRL:
+                chunks:
+                  time: 6
+                  nlat: -1
+                  nlon: -1
+                  z_t: -1
+                  z_w_top: -1
+                  z_w_bot: -1
+#              20C:
+#                 chunks:
+#                   time: 6
+#                   nlat: -1
+#                   nlon: -1
+#                   z_t: -1
+#                   z_w_top: -1
+#                   z_w_bot: -1
+#              RCP85:
+#                chunks:
+#                   time: 6
+#                   nlat: -1
+#                   nlon: -1
+#                   z_t: -1
+#                   z_w_top: -1
+#                   z_w_bot: -1
