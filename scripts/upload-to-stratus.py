@@ -15,12 +15,15 @@ from tqdm.auto import tqdm
     show_default=True,
 )
 @click.option(
+    '-b', '--bucket', default='ncar-cesm-lens', type=str, show_default=True,
+)
+@click.option(
     '-p', '--profile', default='stratus-cesm', type=str, show_default=True,
 )
-def _main(root_path, profile):
+def _main(root_path, bucket, profile):
     #     import os
     #     import fsspec
-    #     S3_URL = 'https://stratus.ucar.edu'
+    S3_URL = 'https://stratus.ucar.edu'
     #     fs = fsspec.filesystem(
     #         's3',
     #         secret=os.environ['STRATUS_SECRET_KEY'],
@@ -41,7 +44,7 @@ def _main(root_path, profile):
     y = {k: v for k, v in sorted(x.items(), key=lambda item: item[1])}
     stores = list(y.keys())[257:]
     store_mapping = {}
-    root_remote_path = 'ncar-cesm-lens'
+    root_remote_path = bucket
     for store in stores:
         parts = store.parts
         x = parts[-3:-1]
@@ -49,23 +52,23 @@ def _main(root_path, profile):
         local_path = store.as_posix()
         store_mapping[local_path] = remote_path
     for local_path, remote_path in tqdm(store_mapping.items()):
+        #         cmd = [
+        #             'aws',
+        #             '--endpoint-url',
+        #             'https://stratus.ucar.edu',
+        #             '--profile',
+        #             'stratus-cesm',
+        #             's3',
+        #             'cp',
+        #             '--recursive',
+        #             local_path,
+        #             remote_path,
+        #             '--quiet',
+        #         ]
         cmd = [
             'aws',
             '--endpoint-url',
-            'https://stratus.ucar.edu',
-            '--profile',
-            'stratus-cesm',
-            's3',
-            'cp',
-            '--recursive',
-            local_path,
-            remote_path,
-            '--quiet',
-        ]
-        cmd = [
-            'aws',
-            '--endpoint-url',
-            'https://stratus.ucar.edu',
+            f'{S3_URL}',
             '--profile',
             f'{profile}',
             's3',
