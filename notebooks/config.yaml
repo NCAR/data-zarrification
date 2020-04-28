@@ -3,71 +3,92 @@ ocn:
     frequency: monthly
     stream: pop.h
     variable_category:
-#         2D:
-#             variable:
-#               - SST
-#               - SSH
-#               - SFWF
-#               - SHF
-#             experiment:
-#                 CTRL:
-#                     chunks:
-#                       time: 300
-#                       nlat: -1
-#                       nlon: -1
-#                       z_t: -1
-#                       z_w_top: -1
-#                       z_w_bot: -1
-#              20C:
-#                 chunks:
-#                   time: 300
-#                   nlat: -1
-#                   nlon: -1
-#                   z_t: -1
-#                   z_w_top: -1
-#                   z_w_bot: -1
-#              RCP85:
-#                chunks:
-#                   time: 300
-#                   nlat: -1
-#                   nlon: -1
-#                   z_t: -1
-#                   z_w_top: -1
-#                   z_w_bot: -1
+       2D:
+         variable:
+           # Completed Variables
+           #- SST
+           #- SSH
+           #- SFWF
+           #- SHF
+           #- TAUX
+           #- TAUY
+           #- FW
+           #- TAUX2
+           #- TAUY2
+           #- QFLUX
+           #- HMXL
+           #- QSW_HTP
+           #- QSW_HBL
+           #- SHF_QSW
+           #- SFWF_WRST
+           #- RESID_S
+           #- RESID_T
+         experiment:
+           CTRL:
+             chunks:
+               time: 300
+               nlat: -1
+               nlon: -1
+               z_t: -1
+               z_w_top: -1
+               z_w_bot: -1
+           20C:
+             chunks:
+               time: 300
+               nlat: -1
+               nlon: -1
+               z_t: -1
+               z_w_top: -1
+               z_w_bot: -1
+           RCP85:
+             chunks:
+               time: 300
+               nlat: -1
+               nlon: -1
+               z_t: -1
+               z_w_top: -1
+               z_w_bot: -1
 
-
-        3D:
-            variable:
-#               - SALT
-#               - TEMP
-#               - UVEL
-#               - VNS
-#               - VNT
-#               - VVEL
-#               - WVEL
-              - O2
-            experiment:
-             CTRL:
-                chunks:
-                  time: 6
-                  nlat: -1
-                  nlon: -1
-                  z_t: -1
-                  z_w_top: -1
-                  z_w_bot: -1
-             20C:
-                chunks:
-                  time: 6
-                  nlat: -1
-                  nlon: -1
-                  z_t: -1
-                  z_w_top: -1
-                  z_w_bot: -1
-             RCP85:
-               chunks:
-                  time: 6
-                  nlat: -1
-                  nlon: -1
-                  z_t: -1
-                  z_w_top: -1
-                  z_w_bot: -1
+#     3D:
+#       variable:
+#         # Completed Variables
+#         #- SALT
+#         #- TEMP
+#         #- UVEL
+#         #- VNS
+#         #- VNT
+#         #- VVEL
+#         #- WVEL
+#         #- UES
+#         #- UET
+#         #- DIC
+#         #- DOC
+#         #- PD
+#         #- O2
+#         #- WTS
+#         #- WTT
+#       experiment:
+#         CTRL:
+#           chunks:
+#             time: 6
+#             nlat: -1
+#             nlon: -1
+#             z_t: -1
+#             z_w_top: -1
+#             z_w_bot: -1
+#         20C:
+#           chunks:
+#             time: 6
+#             nlat: -1
+#             nlon: -1
+#             z_t: -1
+#             z_w_top: -1
+#             z_w_bot: -1
+#         RCP85:
+#           chunks:
+#             time: 6
+#             nlat: -1
+#             nlon: -1
+#             z_t: -1
+#             z_w_top: -1
+#             z_w_bot: -1
