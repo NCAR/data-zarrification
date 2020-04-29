@@ -10,6 +10,8 @@ dependencies:
   - netcdf4
   - intake
   - zarr
+  - s3fs
+  - awscli
   - dask
   - distributed
   - numpy
