@@ -12,14 +12,15 @@ dependencies:
   - zarr
   - s3fs
   - awscli
-  - dask
-  - distributed
+  - dask=2.14.0
+  - distributed=2.14.0
   - numpy
   - ipywidgets
   - pip
-  #- intake-esm==2020.3.16.1
+  #- intake-esm>2020.3.16.2
   - dask-jobqueue
   - tqdm
+  - matplotlib
   - pip:
        - ncar-jobqueue
-       - git+https://github.com/andersy005/intake-esm.git@extract-entries-by-key
+       - git+https://github.com/NCAR/intake-esm.git@master

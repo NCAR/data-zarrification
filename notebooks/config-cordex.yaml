@@ -1,0 +1,32 @@
+variable_category:
+   2D:
+     variable:
+       - tasmax
+       # Completed Variables 
+     scenario:
+       hist:
+         chunks:
+           time: 300
+           lat: -1
+           lon: -1
+       rcp85:
+         chunks:
+           time: -1
+           lat: 16
+           lon: 16
+   3D:
+     variable:
+       - tasmax
+       # Completed Variables 
+     scenario:
+       hist:
+         chunks:
+           time: 6
+           lat: -1
+           lon: -1
+       rcp85:
+         chunks:
+           time: 61
+           lat: 16
+           lon: 16
+
