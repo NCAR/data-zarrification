@@ -11,17 +11,17 @@ ocn:
           member_id: 40
 #           nlat: 384
 #           nlon: 320
-          
+
       3D:
         variables:
           - SALT
         chunks:
           time: 12
           z_t: 1
-          member_id: 40 
+          member_id: 40
 #           nlat: 384
 #           nlon: 320
-          
+
 
     frequency: monthly
 
@@ -64,7 +64,7 @@ atm:
           member_id: 40
 #           lat: 192
 #           lon: 288
-          
+
       2D:
         variables:
           - FLNS
@@ -118,8 +118,8 @@ lnd:
 #           lat: 192
 #           lon: 288
     frequency: monthly
-    
-    
+
+
 #   clm2.h1:
 #     variable_category:
 #       2D:
@@ -133,7 +133,7 @@ lnd:
 #           - SOILWATER_10CM
 #         chunks:
 #           time: 4
-#           member_id: 40   
+#           member_id: 40
 # #           lat: 192
 # #           lon: 288
 #     frequency: daily

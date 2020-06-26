@@ -2,24 +2,26 @@ name: lens-conversion
 channels:
   - conda-forge
 dependencies:
-  - python=3.8
-  - jupyterlab
-  - bokeh==1.4.0
-  - watermark
-  - xarray
-  - netcdf4
-  - intake
-  - zarr
-  - s3fs
   - awscli
+  - bokeh==1.4.0
   - dask
+  - dask-jobqueue
   - distributed
+  - intake
+  - intake-esm
+  - ipywidgets
+  - jupyterlab
+  - netcdf4
+  - nodejs
   - numpy
+  - dask-labextension
   - ipywidgets
   - pip
-  #- intake-esm==2020.3.16.1
-  - dask-jobqueue
+  - python=3.8
+  - s3fs
   - tqdm
+  - watermark
+  - xarray
+  - zarr
   - pip:
        - ncar-jobqueue
-       - git+https://github.com/andersy005/intake-esm.git@extract-entries-by-key
