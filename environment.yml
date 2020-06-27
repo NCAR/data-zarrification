@@ -4,18 +4,20 @@ channels:
 dependencies:
   - awscli
   - bokeh==1.4.0
-  - dask
+  - dask==2.14.0
   - dask-jobqueue
-  - distributed
+  - dask-labextension
+  - distributed==2.14.0
   - intake
   - intake-esm
   - ipywidgets
+  - ipywidgets
   - jupyterlab
+  - matplotlib
+  - nc-time-axis
   - netcdf4
   - nodejs
   - numpy
-  - dask-labextension
-  - ipywidgets
   - pip
   - python=3.8
   - s3fs

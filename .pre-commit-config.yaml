@@ -14,7 +14,7 @@ repos:
       rev: 19.10b0
       hooks:
       - id: black
-        args: ["--skip-string-normalization"]
+        args: ["--skip-string-normalization", "--line-length", "79", ]
 
   -   repo: https://gitlab.com/pycqa/flake8
       rev: 3.8.3
