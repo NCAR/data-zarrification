@@ -1,3 +1,87 @@
+lnd:
+  clm2.h0:
+    frequency: monthly
+    stream: clm2.h0
+    variable_category:
+      2D:
+        variable:
+          - FSNO
+          - H2OSNO
+          - QRUNOFF
+          - RAIN
+          - SNOW
+          - SOILWATER_10CM
+        experiment:
+          CTRL:
+            chunks:
+              time: 600
+
+          RCP85:
+            chunks:
+              time: 600
+
+          20C:
+            chunks:
+              time: 600
+
+      3D:
+        variable:
+          - SOILLIQ
+
+        experiment:
+          CTRL:
+            chunks:
+              time: 40
+
+          RCP85:
+            chunks:
+              time: 40
+
+          20C:
+            chunks:
+              time: 40
+
+  clm2.h1:
+    frequency: daily
+    stream: clm2.h1
+    variable_category:
+      2D:
+        variable:
+          - FSNO
+          - H2OSNO
+          - QRUNOFF
+          - RAIN
+          - SNOW
+          - SOILWATER_10CM
+        experiment:
+          CTRL:
+            chunks:
+              time: 600
+
+          RCP85:
+            chunks:
+              time: 600
+
+          20C:
+            chunks:
+              time: 600
+
+      3D:
+        variable:
+          - SOILLIQ
+
+        experiment:
+          CTRL:
+            chunks:
+              time: 30
+
+          RCP85:
+            chunks:
+              time: 30
+
+          20C:
+            chunks:
+              time: 30
 # ice_sh:
 #   cice.h:
 #     frequency: monthly
@@ -117,13 +201,13 @@
 
 # RCP85:
 #   chunks:
-#     time: 1000
+#     time: 6000
 #     ni: -1
 #     nj: -1
 
 # 20C:
 #   chunks:
-#     time: 1000
+#     time: 6000
 #     ni: -1
 #     nj: -1
 # ocn:
