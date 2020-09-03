@@ -1,27 +1,26 @@
-frequency: day
-grid: NAM-22i
-biascorrection: raw
-variable_category:
-   2D:
-     variable:
-       - tasmax
-       # Completed Variables 
-     scenario:
-       rcp85:
-         chunks:
-           time: 200
-           lat: -1
-           lon: -1
-
-#   3D:
-#     variable:
-#       - tasmax
-#       # Completed Variables 
-#     scenario:
-#       rcp85:
-#         chunks:
-#           time: 200
-#           lat: -1
-#           lon: -1
-#           z: -1
-
+scenarios: 
+   - hist
+   - rcp85
+frequencies: 
+   - day
+biascorrections: 
+   - raw
+variables:
+   - tasmax
+   - tasmin
+   # Completed variables
+grid_categories:
+   high_res: 
+      grid: NAM-22i
+      chunks:
+         time: 20
+         lat: 5
+         lon: 5
+         member_id: 4
+   low_res:
+      grid: NAM-44i
+      chunks:
+         time: 20
+         lat: 3
+         lon: 3
+         member_id: 4          
