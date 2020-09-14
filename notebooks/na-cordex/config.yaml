@@ -6,21 +6,36 @@ frequencies:
 biascorrections: 
    - raw
 variables:
+   - hurs
+   - huss
+   - pr
+   - prec
+   - prhmax
+   - ps
+   - rsds
+   - sfcWind
+   - tas
    - tasmax
    - tasmin
+   - temp
+   - tmax
+   - tmin
+   - uas
+   - vas
    # Completed variables
 grid_categories:
    high_res: 
       grid: NAM-22i
       chunks:
-         time: 20
-         lat: 5
-         lon: 5
+         time: 1000
+         lat: 65
+         lon: 120
          member_id: 4
-   low_res:
-      grid: NAM-44i
-      chunks:
-         time: 20
-         lat: 3
-         lon: 3
-         member_id: 4          
+         
+#   low_res:
+#      grid: NAM-44i
+#      chunks:
+#         time: 20
+#         lat: 3
+#         lon: 3
+#         member_id: 4          
