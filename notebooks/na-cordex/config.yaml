@@ -1,28 +1,29 @@
 scenarios: 
    - hist
-   - rcp85
+   #- rcp85
 frequencies: 
    - day
 biascorrections: 
    - raw
 variables:
-   - hurs
-   - huss
-   - pr
-   - prec
-   - prhmax
-   - ps
-   - rsds
-   - sfcWind
-   - tas
    - tasmax
-   - tasmin
-   - temp
-   - tmax
-   - tmin
-   - uas
-   - vas
+   #- tasmin
+   #- pr
+   #- prec
+   #- prhmax
+   #- ps
+   #- rsds
+   #- tas
+   #- temp
+   #- tmax
+   #- tmin
+   #- uas
+   #- vas
+   #- huss
    # Completed variables
+   # PROBLEM VARIABLES
+   #- hurs
+   #- sfcWind
 grid_categories:
    high_res: 
       grid: NAM-22i
@@ -30,8 +31,8 @@ grid_categories:
          time: 1000
          lat: 65
          lon: 120
-         member_id: 4
-         
+
+
 #   low_res:
 #      grid: NAM-44i
 #      chunks:
@@ -39,3 +40,30 @@ grid_categories:
 #         lat: 3
 #         lon: 3
 #         member_id: 4          
+
+target_metadata:
+   keep_first:
+      - CORDEX_domain
+      - experiment
+      - experiment_id
+      - driving_experiment_name
+      - frequency
+      - id
+      - project_id
+      - product
+   keep_all:
+      - contact
+      - creation_date
+      - driving_model_id
+      - driving_model_ensemble_member
+      - driving_experiment
+      - institution
+      - institute_id
+      - model_id
+      - rcm_version_id
+      - references
+      - tracking_id
+      - title
+      - version
+      
+        
