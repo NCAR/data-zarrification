@@ -1,0 +1,37 @@
+Warning: non-uniform metadata in attribute:  "experiment"
+	First found: "historical" in orog.hist.MPI-ESM-MR.CRCM5-UQAM.fixed.NAM-22i.raw.nc
+	Then found: "simulation historique membre #1" in orog.hist.CNRM-CM5.CRCM5-OUR.fixed.NAM-22i.raw.nc
+	Then found: "simulation historique membre #1" in orog.hist.GFDL-ESM2M.CRCM5-OUR.fixed.NAM-22i.raw.nc
+	Then found: "simulation historique membre 1" in orog.hist.MPI-ESM-LR.CRCM5-OUR.fixed.NAM-22i.raw.nc
+	Then found: "simulation historique membre #1" in orog.hist.CanESM2.CRCM5-OUR.fixed.NAM-22i.raw.nc
+	Then found: "Historical run driven by HadGEM2-ES" in orog.hist.HadGEM2-ES.RegCM4.fixed.NAM-22i.raw.nc
+	Then found: "Historical run driven by GFDL-ESM2M" in orog.hist.GFDL-ESM2M.RegCM4.fixed.NAM-22i.raw.nc
+	Then found: "Historical run driven by MPI-ESM-LR" in orog.hist.MPI-ESM-LR.RegCM4.fixed.NAM-22i.raw.nc
+	Then found: "Historical run driven by CCCma-CanESM2" in orog.hist.CanESM2.CanRCM4.fixed.NAM-22i.raw.nc
+	Then found: "Historical run driven by HadGEM2-ES" in orog.hist.HadGEM2-ES.WRF.fixed.NAM-22i.raw.nc
+	Then found: "Historical run driven by GFDL-ESM2M" in orog.hist.GFDL-ESM2M.WRF.fixed.NAM-22i.raw.nc
+	Then found: "Historical run driven by MPI-ESM-LR" in orog.hist.MPI-ESM-LR.WRF.fixed.NAM-22i.raw.nc
+
+Warning: non-uniform metadata in attribute:  "driving_experiment_name"
+	First found: "historical" in orog.hist.MPI-ESM-MR.CRCM5-UQAM.fixed.NAM-22i.raw.nc
+	Then found: "r1i1p1" in orog.hist.CNRM-CM5.CRCM5-OUR.fixed.NAM-22i.raw.nc
+	Then found: "r1i1p1" in orog.hist.GFDL-ESM2M.CRCM5-OUR.fixed.NAM-22i.raw.nc
+	Then found: "r1i1p1" in orog.hist.MPI-ESM-LR.CRCM5-OUR.fixed.NAM-22i.raw.nc
+	Then found: "r1i1p1" in orog.hist.CanESM2.CRCM5-OUR.fixed.NAM-22i.raw.nc
+	Then found: "HadGEM2-ES" in orog.hist.HadGEM2-ES.RegCM4.fixed.NAM-22i.raw.nc
+	Then found: "GFDL-ESM2M" in orog.hist.GFDL-ESM2M.RegCM4.fixed.NAM-22i.raw.nc
+	Then found: "MPI-ESM-LR" in orog.hist.MPI-ESM-LR.RegCM4.fixed.NAM-22i.raw.nc
+
+Warning: non-uniform metadata in attribute:  "frequency"
+	First found: "fx" in orog.hist.MPI-ESM-MR.CRCM5-UQAM.fixed.NAM-22i.raw.nc
+	Then found: "yseas" in orog.hist.MPI-ESM-LR.WRF.fixed.NAM-22i.raw.nc
+
+Warning: missing attribute:  "driving_model_id"
+	Missing from:  orog.hist.MPI-ESM-LR.CRCM5-OUR.fixed.NAM-22i.raw.nc
+
+Warning: missing attribute:  "references"
+	Missing from:  orog.hist.CNRM-CM5.CRCM5-OUR.fixed.NAM-22i.raw.nc
+	Missing from:  orog.hist.GFDL-ESM2M.CRCM5-OUR.fixed.NAM-22i.raw.nc
+	Missing from:  orog.hist.MPI-ESM-LR.CRCM5-OUR.fixed.NAM-22i.raw.nc
+	Missing from:  orog.hist.CanESM2.CRCM5-OUR.fixed.NAM-22i.raw.nc
+

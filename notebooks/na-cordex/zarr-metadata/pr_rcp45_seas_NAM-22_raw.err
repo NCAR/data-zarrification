@@ -1,0 +1,9 @@
+Warning: non-uniform metadata in attribute:  "experiment"
+	First found: "simulation rcp45 membre #1" in pr.rcp45.GFDL-ESM2M.CRCM5-OUR.seas.NAM-22.raw.nc
+	Then found: "simulation future membre #1" in pr.rcp45.CanESM2.CRCM5-OUR.seas.NAM-22.raw.nc
+	Then found: "RCP4.5 run driven by CCCma-CanESM2 " in pr.rcp45.CanESM2.CanRCM4.seas.NAM-22.raw.nc
+
+Warning: non-uniform metadata in attribute:  "driving_experiment_name"
+	First found: "r1i1p1" in pr.rcp45.GFDL-ESM2M.CRCM5-OUR.seas.NAM-22.raw.nc
+	Then found: "rcp45" in pr.rcp45.CanESM2.CanRCM4.seas.NAM-22.raw.nc
+

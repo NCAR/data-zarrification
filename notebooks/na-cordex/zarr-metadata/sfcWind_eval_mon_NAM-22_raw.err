@@ -1,0 +1,4 @@
+Warning: non-uniform metadata in attribute:  "experiment"
+	First found: "Evaluation run with reanalysis forcing" in sfcWind.eval.ERA-Int.CRCM5-UQAM.mon.NAM-22.raw.nc
+	Then found: "Evaluation run with ERA-INTERIM reanalysis forcing" in sfcWind.eval.ERA-Int.CanRCM4.mon.NAM-22.raw.nc
+

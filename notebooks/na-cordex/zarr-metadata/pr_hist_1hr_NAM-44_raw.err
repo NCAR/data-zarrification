@@ -1,0 +1,11 @@
+Warning: non-uniform metadata in attribute:  "experiment"
+	First found: "historical" in pr.hist.MPI-ESM-LR.RegCM4.1hr.NAM-44.raw.nc
+	Then found: "Historical run driven by CCCma-CanESM2" in pr.hist.CanESM2.CanRCM4.1hr.NAM-44.raw.nc
+	Then found: "Scenario experiment using HadGEM2-ES as driving model" in pr.hist.HadGEM2-ES.WRF.1hr.NAM-44.raw.nc
+	Then found: "Scenario experiment using GFDL-ESM2M as driving model" in pr.hist.GFDL-ESM2M.WRF.1hr.NAM-44.raw.nc
+	Then found: "Scenario experiment using MPI-ESM-LR as driving model" in pr.hist.MPI-ESM-LR.WRF.1hr.NAM-44.raw.nc
+
+Warning: non-uniform metadata in attribute:  "frequency"
+	First found: "1hr" in pr.hist.MPI-ESM-LR.RegCM4.1hr.NAM-44.raw.nc
+	Then found: "30m" in pr.hist.GFDL-ESM2M.WRF.1hr.NAM-44.raw.nc
+

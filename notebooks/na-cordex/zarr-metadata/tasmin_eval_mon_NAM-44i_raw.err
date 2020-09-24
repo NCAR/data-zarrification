@@ -1,0 +1,7 @@
+Warning: non-uniform metadata in attribute:  "experiment"
+	First found: "Evaluation run with reanalysis forcing" in tasmin.eval.ERA-Int.CRCM5-UQAM.mon.NAM-44i.raw.nc
+	Then found: "Evaluation run with ERA-INTERIM reanalysis forcing" in tasmin.eval.ERA-Int.CanRCM4.mon.NAM-44i.raw.nc
+
+Warning: missing attribute:  "references"
+	Missing from:  tasmin.eval.ERA-Int.HIRHAM5.mon.NAM-44i.raw.nc
+

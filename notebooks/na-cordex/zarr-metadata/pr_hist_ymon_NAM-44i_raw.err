@@ -1,0 +1,20 @@
+Warning: non-uniform metadata in attribute:  "experiment"
+	First found: "historical" in pr.hist.MPI-ESM-MR.CRCM5-UQAM.ymon.NAM-44i.raw.nc
+	Then found: "Historical run driven by HadGEM2-ES" in pr.hist.HadGEM2-ES.RegCM4.ymon.NAM-44i.raw.nc
+	Then found: "Historical run driven by GFDL-ESM2M" in pr.hist.GFDL-ESM2M.RegCM4.ymon.NAM-44i.raw.nc
+	Then found: "Historical run driven by MPI-ESM-LR" in pr.hist.MPI-ESM-LR.RegCM4.ymon.NAM-44i.raw.nc
+	Then found: "Historical run using ECEARTH as driving model" in pr.hist.EC-EARTH.HIRHAM5.ymon.NAM-44i.raw.nc
+	Then found: "Historical run driven by CCCma-CanESM2" in pr.hist.CanESM2.CanRCM4.ymon.NAM-44i.raw.nc
+	Then found: "Historical run driven by HadGEM2-ES" in pr.hist.HadGEM2-ES.WRF.ymon.NAM-44i.raw.nc
+	Then found: "Historical run driven by GFDL-ESM2M" in pr.hist.GFDL-ESM2M.WRF.ymon.NAM-44i.raw.nc
+	Then found: "Historical run driven by MPI-ESM-LR" in pr.hist.MPI-ESM-LR.WRF.ymon.NAM-44i.raw.nc
+
+Warning: non-uniform metadata in attribute:  "driving_experiment_name"
+	First found: "historical" in pr.hist.MPI-ESM-MR.CRCM5-UQAM.ymon.NAM-44i.raw.nc
+	Then found: "HadGEM2-ES" in pr.hist.HadGEM2-ES.RegCM4.ymon.NAM-44i.raw.nc
+	Then found: "GFDL-ESM2M" in pr.hist.GFDL-ESM2M.RegCM4.ymon.NAM-44i.raw.nc
+	Then found: "MPI-ESM-LR" in pr.hist.MPI-ESM-LR.RegCM4.ymon.NAM-44i.raw.nc
+
+Warning: missing attribute:  "references"
+	Missing from:  pr.hist.EC-EARTH.HIRHAM5.ymon.NAM-44i.raw.nc
+

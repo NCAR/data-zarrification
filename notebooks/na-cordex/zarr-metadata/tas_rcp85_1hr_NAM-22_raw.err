@@ -1,0 +1,9 @@
+Warning: non-uniform metadata in attribute:  "experiment"
+	First found: "Scenario experiment using MPI-ESM-LR as driving model" in tas.rcp85.MPI-ESM-LR.RegCM4.1hr.NAM-22.raw.nc
+	Then found: "Scenario experiment using HadGEM2-ES as driving model" in tas.rcp85.HadGEM2-ES.WRF.1hr.NAM-22.raw.nc
+	Then found: "Scenario experiment using GFDL-ESM2M as driving model" in tas.rcp85.GFDL-ESM2M.WRF.1hr.NAM-22.raw.nc
+
+Warning: non-uniform metadata in attribute:  "frequency"
+	First found: "1hr" in tas.rcp85.MPI-ESM-LR.RegCM4.1hr.NAM-22.raw.nc
+	Then found: "30m" in tas.rcp85.GFDL-ESM2M.WRF.1hr.NAM-22.raw.nc
+

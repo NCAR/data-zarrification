@@ -1,0 +1,22 @@
+Warning: non-uniform metadata in attribute:  "experiment"
+	First found: "Scenario experiment using MPI-ESM-LR as driving model" in prhmax.rcp85.MPI-ESM-LR.RegCM4.day.NAM-44i.raw.nc
+	Then found: "ICHEC-EC-EARTH,rcp85,r3i1p1" in prhmax.rcp85.EC-EARTH.HIRHAM5.day.NAM-44i.raw.nc
+	Then found: "RCP8.5" in prhmax.rcp85.EC-EARTH.RCA4.day.NAM-44i.raw.nc
+	Then found: "RCP8.5" in prhmax.rcp85.CanESM2.RCA4.day.NAM-44i.raw.nc
+	Then found: "RCP8.5 run driven by CCCma-CanESM2" in prhmax.rcp85.CanESM2.CanRCM4.day.NAM-44i.raw.nc
+	Then found: "Scenario experiment using HadGEM2-ES as driving model" in prhmax.rcp85.HadGEM2-ES.WRF.day.NAM-44i.raw.nc
+	Then found: "Scenario experiment using GFDL-ESM2M as driving model" in prhmax.rcp85.GFDL-ESM2M.WRF.day.NAM-44i.raw.nc
+
+Warning: non-uniform metadata in attribute:  "driving_experiment_name"
+	First found: "MPI-ESM-LR" in prhmax.rcp85.MPI-ESM-LR.RegCM4.day.NAM-44i.raw.nc
+	Then found: "rcp85" in prhmax.rcp85.EC-EARTH.HIRHAM5.day.NAM-44i.raw.nc
+	Then found: "rcp85" in prhmax.rcp85.EC-EARTH.RCA4.day.NAM-44i.raw.nc
+	Then found: "rcp85" in prhmax.rcp85.CanESM2.RCA4.day.NAM-44i.raw.nc
+	Then found: "rcp85" in prhmax.rcp85.CanESM2.CanRCM4.day.NAM-44i.raw.nc
+	Then found: "rcp85" in prhmax.rcp85.HadGEM2-ES.WRF.day.NAM-44i.raw.nc
+	Then found: "rcp85" in prhmax.rcp85.GFDL-ESM2M.WRF.day.NAM-44i.raw.nc
+	Then found: "rcp85" in prhmax.rcp85.MPI-ESM-LR.WRF.day.NAM-44i.raw.nc
+
+Warning: missing attribute:  "references"
+	Missing from:  prhmax.rcp85.EC-EARTH.HIRHAM5.day.NAM-44i.raw.nc
+

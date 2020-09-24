@@ -1,0 +1,27 @@
+Warning: non-uniform metadata in attribute:  "experiment"
+	First found: "rcp85" in tasmin.rcp85.MPI-ESM-MR.CRCM5-UQAM.mon.NAM-22.raw.nc
+	Then found: "simulation future membre #1" in tasmin.rcp85.CNRM-CM5.CRCM5-OUR.mon.NAM-22.raw.nc
+	Then found: "simulation rcp85 membre #1" in tasmin.rcp85.GFDL-ESM2M.CRCM5-OUR.mon.NAM-22.raw.nc
+	Then found: "simulation future membre 1" in tasmin.rcp85.MPI-ESM-LR.CRCM5-OUR.mon.NAM-22.raw.nc
+	Then found: "simulation future membre #1" in tasmin.rcp85.CanESM2.CRCM5-OUR.mon.NAM-22.raw.nc
+	Then found: "Scenario experiment using HadGEM2-ES as driving model" in tasmin.rcp85.HadGEM2-ES.RegCM4.mon.NAM-22.raw.nc
+	Then found: "Scenario experiment using GFDL-ESM2M as driving model" in tasmin.rcp85.GFDL-ESM2M.RegCM4.mon.NAM-22.raw.nc
+	Then found: "Scenario experiment using MPI-ESM-LR as driving model" in tasmin.rcp85.MPI-ESM-LR.RegCM4.mon.NAM-22.raw.nc
+	Then found: "RCP8.5 run driven by CCCma-CanESM2 " in tasmin.rcp85.CanESM2.CanRCM4.mon.NAM-22.raw.nc
+	Then found: "Scenario experiment using HadGEM2-ES as driving model" in tasmin.rcp85.HadGEM2-ES.WRF.mon.NAM-22.raw.nc
+	Then found: "Scenario experiment using GFDL-ESM2M as driving model" in tasmin.rcp85.GFDL-ESM2M.WRF.mon.NAM-22.raw.nc
+	Then found: "Scenario experiment using MPI-ESM-LR as driving model" in tasmin.rcp85.MPI-ESM-LR.WRF.mon.NAM-22.raw.nc
+
+Warning: non-uniform metadata in attribute:  "driving_experiment_name"
+	First found: "rcp85" in tasmin.rcp85.MPI-ESM-MR.CRCM5-UQAM.mon.NAM-22.raw.nc
+	Then found: "r1i1p1" in tasmin.rcp85.CNRM-CM5.CRCM5-OUR.mon.NAM-22.raw.nc
+	Then found: "r1i1p1" in tasmin.rcp85.GFDL-ESM2M.CRCM5-OUR.mon.NAM-22.raw.nc
+	Then found: "r1i1p1" in tasmin.rcp85.MPI-ESM-LR.CRCM5-OUR.mon.NAM-22.raw.nc
+	Then found: "r1i1p1" in tasmin.rcp85.CanESM2.CRCM5-OUR.mon.NAM-22.raw.nc
+	Then found: "HadGEM2-ES" in tasmin.rcp85.HadGEM2-ES.RegCM4.mon.NAM-22.raw.nc
+	Then found: "GFDL-ESM2M" in tasmin.rcp85.GFDL-ESM2M.RegCM4.mon.NAM-22.raw.nc
+	Then found: "MPI-ESM-LR" in tasmin.rcp85.MPI-ESM-LR.RegCM4.mon.NAM-22.raw.nc
+
+Warning: missing attribute:  "driving_model_id"
+	Missing from:  tasmin.rcp85.MPI-ESM-LR.CRCM5-OUR.mon.NAM-22.raw.nc
+

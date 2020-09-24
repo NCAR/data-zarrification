@@ -1,0 +1,27 @@
+Warning: non-uniform metadata in attribute:  "experiment"
+	First found: "rcp85" in sftlf.rcp85.MPI-ESM-MR.CRCM5-UQAM.fixed.NAM-44.raw.nc
+	Then found: "Scenario experiment using HadGEM2-ES as driving model" in sftlf.rcp85.HadGEM2-ES.RegCM4.fixed.NAM-44.raw.nc
+	Then found: "Scenario experiment using GFDL-ESM2M as driving model" in sftlf.rcp85.GFDL-ESM2M.RegCM4.fixed.NAM-44.raw.nc
+	Then found: "Scenario experiment using MPI-ESM-LR as driving model" in sftlf.rcp85.MPI-ESM-LR.RegCM4.fixed.NAM-44.raw.nc
+	Then found: "ICHEC-EC-EARTH,rcp85,r3i1p1" in sftlf.rcp85.EC-EARTH.HIRHAM5.fixed.NAM-44.raw.nc
+	Then found: "RCP8.5" in sftlf.rcp85.EC-EARTH.RCA4.fixed.NAM-44.raw.nc
+	Then found: "RCP8.5" in sftlf.rcp85.CanESM2.RCA4.fixed.NAM-44.raw.nc
+	Then found: "RCP8.5 run driven by CCCma-CanESM2 " in sftlf.rcp85.CanESM2.CanRCM4.fixed.NAM-44.raw.nc
+	Then found: "Scenario experiment using HadGEM2-ES as driving model" in sftlf.rcp85.HadGEM2-ES.WRF.fixed.NAM-44.raw.nc
+	Then found: "Scenario experiment using GFDL-ESM2M as driving model" in sftlf.rcp85.GFDL-ESM2M.WRF.fixed.NAM-44.raw.nc
+	Then found: "Scenario experiment using MPI-ESM-LR as driving model" in sftlf.rcp85.MPI-ESM-LR.WRF.fixed.NAM-44.raw.nc
+
+Warning: non-uniform metadata in attribute:  "driving_experiment_name"
+	First found: "rcp85" in sftlf.rcp85.MPI-ESM-MR.CRCM5-UQAM.fixed.NAM-44.raw.nc
+	Then found: "HadGEM2-ES" in sftlf.rcp85.HadGEM2-ES.RegCM4.fixed.NAM-44.raw.nc
+	Then found: "GFDL-ESM2M" in sftlf.rcp85.GFDL-ESM2M.RegCM4.fixed.NAM-44.raw.nc
+	Then found: "MPI-ESM-LR" in sftlf.rcp85.MPI-ESM-LR.RegCM4.fixed.NAM-44.raw.nc
+
+Warning: non-uniform metadata in attribute:  "frequency"
+	First found: "fx" in sftlf.rcp85.MPI-ESM-MR.CRCM5-UQAM.fixed.NAM-44.raw.nc
+	Then found: "yseas" in sftlf.rcp85.HadGEM2-ES.WRF.fixed.NAM-44.raw.nc
+	Then found: "yseas" in sftlf.rcp85.GFDL-ESM2M.WRF.fixed.NAM-44.raw.nc
+
+Warning: missing attribute:  "references"
+	Missing from:  sftlf.rcp85.EC-EARTH.HIRHAM5.fixed.NAM-44.raw.nc
+

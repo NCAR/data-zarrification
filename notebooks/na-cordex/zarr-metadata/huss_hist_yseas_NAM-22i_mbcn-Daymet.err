@@ -1,0 +1,24 @@
+Warning: non-uniform metadata in attribute:  "experiment"
+	First found: "historical" in huss.hist.MPI-ESM-MR.CRCM5-UQAM.yseas.NAM-22i.mbcn-Daymet.nc
+	Then found: "Historical run driven by HadGEM2-ES" in huss.hist.HadGEM2-ES.RegCM4.yseas.NAM-22i.mbcn-Daymet.nc
+	Then found: "Historical run driven by GFDL-ESM2M" in huss.hist.GFDL-ESM2M.RegCM4.yseas.NAM-22i.mbcn-Daymet.nc
+	Then found: "Historical run driven by MPI-ESM-LR" in huss.hist.MPI-ESM-LR.RegCM4.yseas.NAM-22i.mbcn-Daymet.nc
+	Then found: "Historical run driven by CCCma-CanESM2" in huss.hist.CanESM2.CanRCM4.yseas.NAM-22i.mbcn-Daymet.nc
+	Then found: "Historical run driven by HadGEM2-ES" in huss.hist.HadGEM2-ES.WRF.yseas.NAM-22i.mbcn-Daymet.nc
+	Then found: "Historical run driven by GFDL-ESM2M" in huss.hist.GFDL-ESM2M.WRF.yseas.NAM-22i.mbcn-Daymet.nc
+	Then found: "Historical run driven by MPI-ESM-LR" in huss.hist.MPI-ESM-LR.WRF.yseas.NAM-22i.mbcn-Daymet.nc
+
+Warning: non-uniform metadata in attribute:  "driving_experiment_name"
+	First found: "historical" in huss.hist.MPI-ESM-MR.CRCM5-UQAM.yseas.NAM-22i.mbcn-Daymet.nc
+	Then found: "HadGEM2-ES" in huss.hist.HadGEM2-ES.RegCM4.yseas.NAM-22i.mbcn-Daymet.nc
+	Then found: "GFDL-ESM2M" in huss.hist.GFDL-ESM2M.RegCM4.yseas.NAM-22i.mbcn-Daymet.nc
+	Then found: "MPI-ESM-LR" in huss.hist.MPI-ESM-LR.RegCM4.yseas.NAM-22i.mbcn-Daymet.nc
+
+Warning: missing attribute:  "institute_id"
+	Missing from:  huss.hist.MPI-ESM-MR.CRCM5-UQAM.yseas.NAM-22i.mbcn-Daymet.nc
+	Missing from:  huss.hist.GEMatm-Can.CRCM5-UQAM.yseas.NAM-22i.mbcn-Daymet.nc
+	Missing from:  huss.hist.MPI-ESM-LR.CRCM5-UQAM.yseas.NAM-22i.mbcn-Daymet.nc
+	Missing from:  huss.hist.CanESM2.CRCM5-UQAM.yseas.NAM-22i.mbcn-Daymet.nc
+	Missing from:  huss.hist.GEMatm-MPI.CRCM5-UQAM.yseas.NAM-22i.mbcn-Daymet.nc
+	Missing from:  huss.hist.CanESM2.CanRCM4.yseas.NAM-22i.mbcn-Daymet.nc
+

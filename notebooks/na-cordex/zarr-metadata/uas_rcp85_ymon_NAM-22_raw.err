@@ -1,0 +1,16 @@
+Warning: non-uniform metadata in attribute:  "experiment"
+	First found: "rcp85" in uas.rcp85.MPI-ESM-MR.CRCM5-UQAM.ymon.NAM-22.raw.nc
+	Then found: "Scenario experiment using HadGEM2-ES as driving model" in uas.rcp85.HadGEM2-ES.RegCM4.ymon.NAM-22.raw.nc
+	Then found: "Scenario experiment using GFDL-ESM2M as driving model" in uas.rcp85.GFDL-ESM2M.RegCM4.ymon.NAM-22.raw.nc
+	Then found: "Scenario experiment using MPI-ESM-LR as driving model" in uas.rcp85.MPI-ESM-LR.RegCM4.ymon.NAM-22.raw.nc
+	Then found: "RCP8.5 run driven by CCCma-CanESM2" in uas.rcp85.CanESM2.CanRCM4.ymon.NAM-22.raw.nc
+	Then found: "Scenario experiment using HadGEM2-ES as driving model" in uas.rcp85.HadGEM2-ES.WRF.ymon.NAM-22.raw.nc
+	Then found: "Scenario experiment using GFDL-ESM2M as driving model" in uas.rcp85.GFDL-ESM2M.WRF.ymon.NAM-22.raw.nc
+	Then found: "Scenario experiment using MPI-ESM-LR as driving model" in uas.rcp85.MPI-ESM-LR.WRF.ymon.NAM-22.raw.nc
+
+Warning: non-uniform metadata in attribute:  "driving_experiment_name"
+	First found: "rcp85" in uas.rcp85.MPI-ESM-MR.CRCM5-UQAM.ymon.NAM-22.raw.nc
+	Then found: "HadGEM2-ES" in uas.rcp85.HadGEM2-ES.RegCM4.ymon.NAM-22.raw.nc
+	Then found: "GFDL-ESM2M" in uas.rcp85.GFDL-ESM2M.RegCM4.ymon.NAM-22.raw.nc
+	Then found: "MPI-ESM-LR" in uas.rcp85.MPI-ESM-LR.RegCM4.ymon.NAM-22.raw.nc
+

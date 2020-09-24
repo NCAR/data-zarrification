@@ -1,0 +1,37 @@
+Warning: missing attribute:  "CORDEX_domain"
+	Missing from:  prhmax.eval.ERA-Int.WRF.yseas.NAM-22.raw.nc
+
+Warning: non-uniform metadata in attribute:  "experiment"
+	First found: "Evaluation run with reanalysis forcing" in prhmax.eval.ERA-Int.RegCM4.yseas.NAM-22.raw.nc
+	Then found: "Evaluation run with ERA-INTERIM reanalysis forcing" in prhmax.eval.ERA-Int.CanRCM4.yseas.NAM-22.raw.nc
+
+Warning: missing attribute:  "experiment_id"
+	Missing from:  prhmax.eval.ERA-Int.WRF.yseas.NAM-22.raw.nc
+
+Warning: missing attribute:  "driving_experiment_name"
+	Missing from:  prhmax.eval.ERA-Int.WRF.yseas.NAM-22.raw.nc
+
+Warning: missing attribute:  "project_id"
+	Missing from:  prhmax.eval.ERA-Int.WRF.yseas.NAM-22.raw.nc
+
+Warning: missing attribute:  "product"
+	Missing from:  prhmax.eval.ERA-Int.WRF.yseas.NAM-22.raw.nc
+
+Warning: missing attribute:  "creation_date"
+	Missing from:  prhmax.eval.ERA-Int.WRF.yseas.NAM-22.raw.nc
+
+Warning: missing attribute:  "driving_model_id"
+	Missing from:  prhmax.eval.ERA-Int.WRF.yseas.NAM-22.raw.nc
+
+Warning: missing attribute:  "driving_model_ensemble_member"
+	Missing from:  prhmax.eval.ERA-Int.WRF.yseas.NAM-22.raw.nc
+
+Warning: missing attribute:  "driving_experiment"
+	Missing from:  prhmax.eval.ERA-Int.WRF.yseas.NAM-22.raw.nc
+
+Warning: missing attribute:  "rcm_version_id"
+	Missing from:  prhmax.eval.ERA-Int.WRF.yseas.NAM-22.raw.nc
+
+Warning: missing attribute:  "references"
+	Missing from:  prhmax.eval.ERA-Int.WRF.yseas.NAM-22.raw.nc
+

@@ -1,0 +1,26 @@
+Warning: non-uniform metadata in attribute:  "experiment"
+	First found: "historical" in orog.hist.MPI-ESM-MR.CRCM5-UQAM.fixed.NAM-44.raw.nc
+	Then found: "Historical run driven by HadGEM2-ES" in orog.hist.HadGEM2-ES.RegCM4.fixed.NAM-44.raw.nc
+	Then found: "Historical run driven by GFDL-ESM2M" in orog.hist.GFDL-ESM2M.RegCM4.fixed.NAM-44.raw.nc
+	Then found: "Historical run driven by MPI-ESM-LR" in orog.hist.MPI-ESM-LR.RegCM4.fixed.NAM-44.raw.nc
+	Then found: "ICHEC-EC-EARTH,historical,r3i1p1" in orog.hist.EC-EARTH.HIRHAM5.fixed.NAM-44.raw.nc
+	Then found: "Historical run driven by CCCma-CanESM2" in orog.hist.CanESM2.CanRCM4.fixed.NAM-44.raw.nc
+	Then found: "Historical run driven by HadGEM2-ES" in orog.hist.HadGEM2-ES.WRF.fixed.NAM-44.raw.nc
+	Then found: "Historical run driven by GFDL-ESM2M" in orog.hist.GFDL-ESM2M.WRF.fixed.NAM-44.raw.nc
+	Then found: "Historical run driven by MPI-ESM-LR" in orog.hist.MPI-ESM-LR.WRF.fixed.NAM-44.raw.nc
+
+Warning: non-uniform metadata in attribute:  "driving_experiment_name"
+	First found: "historical" in orog.hist.MPI-ESM-MR.CRCM5-UQAM.fixed.NAM-44.raw.nc
+	Then found: "HadGEM2-ES" in orog.hist.HadGEM2-ES.RegCM4.fixed.NAM-44.raw.nc
+	Then found: "GFDL-ESM2M" in orog.hist.GFDL-ESM2M.RegCM4.fixed.NAM-44.raw.nc
+	Then found: "MPI-ESM-LR" in orog.hist.MPI-ESM-LR.RegCM4.fixed.NAM-44.raw.nc
+
+Warning: non-uniform metadata in attribute:  "frequency"
+	First found: "fx" in orog.hist.MPI-ESM-MR.CRCM5-UQAM.fixed.NAM-44.raw.nc
+	Then found: "yseas" in orog.hist.HadGEM2-ES.WRF.fixed.NAM-44.raw.nc
+	Then found: "yseas" in orog.hist.GFDL-ESM2M.WRF.fixed.NAM-44.raw.nc
+	Then found: "yseas" in orog.hist.MPI-ESM-LR.WRF.fixed.NAM-44.raw.nc
+
+Warning: missing attribute:  "references"
+	Missing from:  orog.hist.EC-EARTH.HIRHAM5.fixed.NAM-44.raw.nc
+

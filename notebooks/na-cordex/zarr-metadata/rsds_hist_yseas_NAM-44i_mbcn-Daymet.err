@@ -1,0 +1,31 @@
+Warning: non-uniform metadata in attribute:  "experiment"
+	First found: "historical" in rsds.hist.MPI-ESM-MR.CRCM5-UQAM.yseas.NAM-44i.mbcn-Daymet.nc
+	Then found: "Historical run driven by HadGEM2-ES" in rsds.hist.HadGEM2-ES.RegCM4.yseas.NAM-44i.mbcn-Daymet.nc
+	Then found: "Historical run driven by GFDL-ESM2M" in rsds.hist.GFDL-ESM2M.RegCM4.yseas.NAM-44i.mbcn-Daymet.nc
+	Then found: "Historical run driven by MPI-ESM-LR" in rsds.hist.MPI-ESM-LR.RegCM4.yseas.NAM-44i.mbcn-Daymet.nc
+	Then found: "Historical run using ECEARTH as driving model" in rsds.hist.EC-EARTH.HIRHAM5.yseas.NAM-44i.mbcn-Daymet.nc
+	Then found: "Historical run driven by CCCma-CanESM2" in rsds.hist.CanESM2.CanRCM4.yseas.NAM-44i.mbcn-Daymet.nc
+	Then found: "Historical run driven by HadGEM2-ES" in rsds.hist.HadGEM2-ES.WRF.yseas.NAM-44i.mbcn-Daymet.nc
+	Then found: "Historical run driven by GFDL-ESM2M" in rsds.hist.GFDL-ESM2M.WRF.yseas.NAM-44i.mbcn-Daymet.nc
+	Then found: "Historical run driven by MPI-ESM-LR" in rsds.hist.MPI-ESM-LR.WRF.yseas.NAM-44i.mbcn-Daymet.nc
+
+Warning: non-uniform metadata in attribute:  "driving_experiment_name"
+	First found: "historical" in rsds.hist.MPI-ESM-MR.CRCM5-UQAM.yseas.NAM-44i.mbcn-Daymet.nc
+	Then found: "HadGEM2-ES" in rsds.hist.HadGEM2-ES.RegCM4.yseas.NAM-44i.mbcn-Daymet.nc
+	Then found: "GFDL-ESM2M" in rsds.hist.GFDL-ESM2M.RegCM4.yseas.NAM-44i.mbcn-Daymet.nc
+	Then found: "MPI-ESM-LR" in rsds.hist.MPI-ESM-LR.RegCM4.yseas.NAM-44i.mbcn-Daymet.nc
+
+Warning: missing attribute:  "references"
+	Missing from:  rsds.hist.EC-EARTH.HIRHAM5.yseas.NAM-44i.mbcn-Daymet.nc
+
+Warning: missing attribute:  "institute_id"
+	Missing from:  rsds.hist.MPI-ESM-MR.CRCM5-UQAM.yseas.NAM-44i.mbcn-Daymet.nc
+	Missing from:  rsds.hist.GEMatm-Can.CRCM5-UQAM.yseas.NAM-44i.mbcn-Daymet.nc
+	Missing from:  rsds.hist.MPI-ESM-LR.CRCM5-UQAM.yseas.NAM-44i.mbcn-Daymet.nc
+	Missing from:  rsds.hist.CanESM2.CRCM5-UQAM.yseas.NAM-44i.mbcn-Daymet.nc
+	Missing from:  rsds.hist.GEMatm-MPI.CRCM5-UQAM.yseas.NAM-44i.mbcn-Daymet.nc
+	Missing from:  rsds.hist.EC-EARTH.HIRHAM5.yseas.NAM-44i.mbcn-Daymet.nc
+	Missing from:  rsds.hist.EC-EARTH.RCA4.yseas.NAM-44i.mbcn-Daymet.nc
+	Missing from:  rsds.hist.CanESM2.RCA4.yseas.NAM-44i.mbcn-Daymet.nc
+	Missing from:  rsds.hist.CanESM2.CanRCM4.yseas.NAM-44i.mbcn-Daymet.nc
+

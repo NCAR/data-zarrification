@@ -1,0 +1,17 @@
+Warning: non-uniform metadata in attribute:  "experiment"
+	First found: "Historical run driven by HadGEM2-ES" in prec.hist.HadGEM2-ES.RegCM4.yseas.NAM-22.raw.nc
+	Then found: "Historical run driven by GFDL-ESM2M" in prec.hist.GFDL-ESM2M.RegCM4.yseas.NAM-22.raw.nc
+	Then found: "Historical run driven by MPI-ESM-LR" in prec.hist.MPI-ESM-LR.RegCM4.yseas.NAM-22.raw.nc
+	Then found: "Historical run driven by CCCma-CanESM2" in prec.hist.CanESM2.CanRCM4.yseas.NAM-22.raw.nc
+	Then found: "Historical run driven by GFDL-ESM2M" in prec.hist.GFDL-ESM2M.WRF.yseas.NAM-22.raw.nc
+	Then found: "Historical run driven by MPI-ESM-LR" in prec.hist.MPI-ESM-LR.WRF.yseas.NAM-22.raw.nc
+
+Warning: non-uniform metadata in attribute:  "driving_experiment_name"
+	First found: "HadGEM2-ES" in prec.hist.HadGEM2-ES.RegCM4.yseas.NAM-22.raw.nc
+	Then found: "GFDL-ESM2M" in prec.hist.GFDL-ESM2M.RegCM4.yseas.NAM-22.raw.nc
+	Then found: "MPI-ESM-LR" in prec.hist.MPI-ESM-LR.RegCM4.yseas.NAM-22.raw.nc
+	Then found: "historical" in prec.hist.CanESM2.CanRCM4.yseas.NAM-22.raw.nc
+	Then found: "historical" in prec.hist.HadGEM2-ES.WRF.yseas.NAM-22.raw.nc
+	Then found: "historical" in prec.hist.GFDL-ESM2M.WRF.yseas.NAM-22.raw.nc
+	Then found: "historical" in prec.hist.MPI-ESM-LR.WRF.yseas.NAM-22.raw.nc
+

@@ -1,0 +1,11 @@
+Warning: non-uniform metadata in attribute:  "experiment"
+	First found: "Historical run driven by MPI-ESM-LR" in prhmax.hist.MPI-ESM-LR.RegCM4.seas.NAM-22.raw.nc
+	Then found: "Historical run driven by HadGEM2-ES" in prhmax.hist.HadGEM2-ES.WRF.seas.NAM-22.raw.nc
+	Then found: "Historical run driven by GFDL-ESM2M" in prhmax.hist.GFDL-ESM2M.WRF.seas.NAM-22.raw.nc
+
+Warning: non-uniform metadata in attribute:  "driving_experiment_name"
+	First found: "MPI-ESM-LR" in prhmax.hist.MPI-ESM-LR.RegCM4.seas.NAM-22.raw.nc
+	Then found: "historical" in prhmax.hist.HadGEM2-ES.WRF.seas.NAM-22.raw.nc
+	Then found: "historical" in prhmax.hist.GFDL-ESM2M.WRF.seas.NAM-22.raw.nc
+	Then found: "historical" in prhmax.hist.MPI-ESM-LR.WRF.seas.NAM-22.raw.nc
+

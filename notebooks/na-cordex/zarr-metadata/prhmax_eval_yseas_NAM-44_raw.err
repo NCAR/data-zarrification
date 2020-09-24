@@ -1,0 +1,7 @@
+Warning: non-uniform metadata in attribute:  "experiment"
+	First found: "Evaluation run with reanalysis forcing" in prhmax.eval.ERA-Int.RegCM4.yseas.NAM-44.raw.nc
+	Then found: "Evaluation run with ERA-INTERIM reanalysis forcing" in prhmax.eval.ERA-Int.CanRCM4.yseas.NAM-44.raw.nc
+
+Warning: missing attribute:  "references"
+	Missing from:  prhmax.eval.ERA-Int.HIRHAM5.yseas.NAM-44.raw.nc
+
