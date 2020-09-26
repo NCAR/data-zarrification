@@ -1,7 +1,0 @@
-Warning: non-uniform metadata in attribute:  "experiment"
-	First found: "Evaluation run with reanalysis forcing" in pr.eval.ERA-Int.CRCM5-UQAM.mon.NAM-44.raw.nc
-	Then found: "Evaluation run with ERA-INTERIM reanalysis forcing" in pr.eval.ERA-Int.CanRCM4.mon.NAM-44.raw.nc
-
-Warning: missing attribute:  "references"
-	Missing from:  pr.eval.ERA-Int.HIRHAM5.mon.NAM-44.raw.nc
-

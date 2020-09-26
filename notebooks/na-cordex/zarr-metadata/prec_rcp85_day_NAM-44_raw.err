@@ -1,4 +1,0 @@
-Warning: non-uniform metadata in attribute:  "experiment"
-	First found: "rcp85" in prec.rcp85.CanESM2.CRCM5-UQAM.day.NAM-44.raw.nc
-	Then found: "RCP8.5 run driven by CCCma-CanESM2 " in prec.rcp85.CanESM2.CanRCM4.day.NAM-44.raw.nc
-

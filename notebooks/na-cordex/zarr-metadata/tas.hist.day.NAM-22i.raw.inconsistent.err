@@ -1,0 +1,32 @@
+experiment	"historical"	tas.hist.MPI-ESM-MR.CRCM5-UQAM.day.NAM-22i.raw.nc
+experiment	"historical"	tas.hist.GEMatm-Can.CRCM5-UQAM.day.NAM-22i.raw.nc
+experiment	"historical"	tas.hist.MPI-ESM-LR.CRCM5-UQAM.day.NAM-22i.raw.nc
+experiment	"historical"	tas.hist.CanESM2.CRCM5-UQAM.day.NAM-22i.raw.nc
+experiment	"historical"	tas.hist.GEMatm-MPI.CRCM5-UQAM.day.NAM-22i.raw.nc
+experiment	"simulation historique membre #1"	tas.hist.CNRM-CM5.CRCM5-OUR.day.NAM-22i.raw.nc
+experiment	"simulation historique membre #1"	tas.hist.GFDL-ESM2M.CRCM5-OUR.day.NAM-22i.raw.nc
+experiment	"simulation historique membre 1"	tas.hist.MPI-ESM-LR.CRCM5-OUR.day.NAM-22i.raw.nc
+experiment	"simulation historique membre #1"	tas.hist.CanESM2.CRCM5-OUR.day.NAM-22i.raw.nc
+experiment	"Historical run driven by HadGEM2-ES"	tas.hist.HadGEM2-ES.RegCM4.day.NAM-22i.raw.nc
+experiment	"Historical run driven by GFDL-ESM2M"	tas.hist.GFDL-ESM2M.RegCM4.day.NAM-22i.raw.nc
+experiment	"Historical run driven by MPI-ESM-LR"	tas.hist.MPI-ESM-LR.RegCM4.day.NAM-22i.raw.nc
+experiment	"Historical run driven by CCCma-CanESM2"	tas.hist.CanESM2.CanRCM4.day.NAM-22i.raw.nc
+experiment	"Historical run driven by HadGEM2-ES"	tas.hist.HadGEM2-ES.WRF.day.NAM-22i.raw.nc
+experiment	"Historical run driven by GFDL-ESM2M"	tas.hist.GFDL-ESM2M.WRF.day.NAM-22i.raw.nc
+experiment	"Historical run driven by MPI-ESM-LR"	tas.hist.MPI-ESM-LR.WRF.day.NAM-22i.raw.nc
+driving_experiment_name	"historical"	tas.hist.MPI-ESM-MR.CRCM5-UQAM.day.NAM-22i.raw.nc
+driving_experiment_name	"historical"	tas.hist.GEMatm-Can.CRCM5-UQAM.day.NAM-22i.raw.nc
+driving_experiment_name	"historical"	tas.hist.MPI-ESM-LR.CRCM5-UQAM.day.NAM-22i.raw.nc
+driving_experiment_name	"historical"	tas.hist.CanESM2.CRCM5-UQAM.day.NAM-22i.raw.nc
+driving_experiment_name	"historical"	tas.hist.GEMatm-MPI.CRCM5-UQAM.day.NAM-22i.raw.nc
+driving_experiment_name	"r1i1p1"	tas.hist.CNRM-CM5.CRCM5-OUR.day.NAM-22i.raw.nc
+driving_experiment_name	"r1i1p1"	tas.hist.GFDL-ESM2M.CRCM5-OUR.day.NAM-22i.raw.nc
+driving_experiment_name	"r1i1p1"	tas.hist.MPI-ESM-LR.CRCM5-OUR.day.NAM-22i.raw.nc
+driving_experiment_name	"r1i1p1"	tas.hist.CanESM2.CRCM5-OUR.day.NAM-22i.raw.nc
+driving_experiment_name	"HadGEM2-ES"	tas.hist.HadGEM2-ES.RegCM4.day.NAM-22i.raw.nc
+driving_experiment_name	"GFDL-ESM2M"	tas.hist.GFDL-ESM2M.RegCM4.day.NAM-22i.raw.nc
+driving_experiment_name	"MPI-ESM-LR"	tas.hist.MPI-ESM-LR.RegCM4.day.NAM-22i.raw.nc
+driving_experiment_name	"historical"	tas.hist.CanESM2.CanRCM4.day.NAM-22i.raw.nc
+driving_experiment_name	"historical"	tas.hist.HadGEM2-ES.WRF.day.NAM-22i.raw.nc
+driving_experiment_name	"historical"	tas.hist.GFDL-ESM2M.WRF.day.NAM-22i.raw.nc
+driving_experiment_name	"historical"	tas.hist.MPI-ESM-LR.WRF.day.NAM-22i.raw.nc

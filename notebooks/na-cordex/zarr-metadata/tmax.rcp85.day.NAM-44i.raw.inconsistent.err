@@ -1,0 +1,30 @@
+experiment	"rcp85"	tmax.rcp85.MPI-ESM-MR.CRCM5-UQAM.day.NAM-44i.raw.nc
+experiment	"rcp85"	tmax.rcp85.GEMatm-Can.CRCM5-UQAM.day.NAM-44i.raw.nc
+experiment	"rcp85"	tmax.rcp85.MPI-ESM-LR.CRCM5-UQAM.day.NAM-44i.raw.nc
+experiment	"rcp85"	tmax.rcp85.CanESM2.CRCM5-UQAM.day.NAM-44i.raw.nc
+experiment	"rcp85"	tmax.rcp85.GEMatm-MPI.CRCM5-UQAM.day.NAM-44i.raw.nc
+experiment	"Scenario experiment using HadGEM2-ES as driving model"	tmax.rcp85.HadGEM2-ES.RegCM4.day.NAM-44i.raw.nc
+experiment	"Scenario experiment using GFDL-ESM2M as driving model"	tmax.rcp85.GFDL-ESM2M.RegCM4.day.NAM-44i.raw.nc
+experiment	"Scenario experiment using MPI-ESM-LR as driving model"	tmax.rcp85.MPI-ESM-LR.RegCM4.day.NAM-44i.raw.nc
+experiment	"ICHEC-EC-EARTH,rcp85,r3i1p1"	tmax.rcp85.EC-EARTH.HIRHAM5.day.NAM-44i.raw.nc
+experiment	"RCP8.5"	tmax.rcp85.EC-EARTH.RCA4.day.NAM-44i.raw.nc
+experiment	"RCP8.5"	tmax.rcp85.CanESM2.RCA4.day.NAM-44i.raw.nc
+experiment	"RCP8.5 run driven by CCCma-CanESM2 "	tmax.rcp85.CanESM2.CanRCM4.day.NAM-44i.raw.nc
+experiment	"Scenario experiment using HadGEM2-ES as driving model"	tmax.rcp85.HadGEM2-ES.WRF.day.NAM-44i.raw.nc
+experiment	"Scenario experiment using GFDL-ESM2M as driving model"	tmax.rcp85.GFDL-ESM2M.WRF.day.NAM-44i.raw.nc
+experiment	"Scenario experiment using MPI-ESM-LR as driving model"	tmax.rcp85.MPI-ESM-LR.WRF.day.NAM-44i.raw.nc
+driving_experiment_name	"rcp85"	tmax.rcp85.MPI-ESM-MR.CRCM5-UQAM.day.NAM-44i.raw.nc
+driving_experiment_name	"rcp85"	tmax.rcp85.GEMatm-Can.CRCM5-UQAM.day.NAM-44i.raw.nc
+driving_experiment_name	"rcp85"	tmax.rcp85.MPI-ESM-LR.CRCM5-UQAM.day.NAM-44i.raw.nc
+driving_experiment_name	"rcp85"	tmax.rcp85.CanESM2.CRCM5-UQAM.day.NAM-44i.raw.nc
+driving_experiment_name	"rcp85"	tmax.rcp85.GEMatm-MPI.CRCM5-UQAM.day.NAM-44i.raw.nc
+driving_experiment_name	"HadGEM2-ES"	tmax.rcp85.HadGEM2-ES.RegCM4.day.NAM-44i.raw.nc
+driving_experiment_name	"GFDL-ESM2M"	tmax.rcp85.GFDL-ESM2M.RegCM4.day.NAM-44i.raw.nc
+driving_experiment_name	"MPI-ESM-LR"	tmax.rcp85.MPI-ESM-LR.RegCM4.day.NAM-44i.raw.nc
+driving_experiment_name	"rcp85"	tmax.rcp85.EC-EARTH.HIRHAM5.day.NAM-44i.raw.nc
+driving_experiment_name	"rcp85"	tmax.rcp85.EC-EARTH.RCA4.day.NAM-44i.raw.nc
+driving_experiment_name	"rcp85"	tmax.rcp85.CanESM2.RCA4.day.NAM-44i.raw.nc
+driving_experiment_name	"rcp85"	tmax.rcp85.CanESM2.CanRCM4.day.NAM-44i.raw.nc
+driving_experiment_name	"rcp85"	tmax.rcp85.HadGEM2-ES.WRF.day.NAM-44i.raw.nc
+driving_experiment_name	"rcp85"	tmax.rcp85.GFDL-ESM2M.WRF.day.NAM-44i.raw.nc
+driving_experiment_name	"rcp85"	tmax.rcp85.MPI-ESM-LR.WRF.day.NAM-44i.raw.nc

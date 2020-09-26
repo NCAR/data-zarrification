@@ -1,4 +1,0 @@
-Warning: non-uniform metadata in attribute:  "experiment"
-	First found: "historical" in prec.hist.CanESM2.CRCM5-UQAM.day.NAM-44.raw.nc
-	Then found: "Historical run driven by CCCma-CanESM2" in prec.hist.CanESM2.CanRCM4.day.NAM-44.raw.nc
-

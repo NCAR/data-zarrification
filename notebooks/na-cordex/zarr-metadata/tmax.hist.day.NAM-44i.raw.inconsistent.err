@@ -1,0 +1,30 @@
+experiment	"historical"	tmax.hist.MPI-ESM-MR.CRCM5-UQAM.day.NAM-44i.raw.nc
+experiment	"historical"	tmax.hist.GEMatm-Can.CRCM5-UQAM.day.NAM-44i.raw.nc
+experiment	"historical"	tmax.hist.MPI-ESM-LR.CRCM5-UQAM.day.NAM-44i.raw.nc
+experiment	"historical"	tmax.hist.CanESM2.CRCM5-UQAM.day.NAM-44i.raw.nc
+experiment	"historical"	tmax.hist.GEMatm-MPI.CRCM5-UQAM.day.NAM-44i.raw.nc
+experiment	"Historical run driven by HadGEM2-ES"	tmax.hist.HadGEM2-ES.RegCM4.day.NAM-44i.raw.nc
+experiment	"Historical run driven by GFDL-ESM2M"	tmax.hist.GFDL-ESM2M.RegCM4.day.NAM-44i.raw.nc
+experiment	"Historical run driven by MPI-ESM-LR"	tmax.hist.MPI-ESM-LR.RegCM4.day.NAM-44i.raw.nc
+experiment	"Historical run using ECEARTH as driving model"	tmax.hist.EC-EARTH.HIRHAM5.day.NAM-44i.raw.nc
+experiment	"historical"	tmax.hist.EC-EARTH.RCA4.day.NAM-44i.raw.nc
+experiment	"historical"	tmax.hist.CanESM2.RCA4.day.NAM-44i.raw.nc
+experiment	"Historical run driven by CCCma-CanESM2"	tmax.hist.CanESM2.CanRCM4.day.NAM-44i.raw.nc
+experiment	"Historical run driven by HadGEM2-ES"	tmax.hist.HadGEM2-ES.WRF.day.NAM-44i.raw.nc
+experiment	"Historical run driven by GFDL-ESM2M"	tmax.hist.GFDL-ESM2M.WRF.day.NAM-44i.raw.nc
+experiment	"Historical run driven by MPI-ESM-LR"	tmax.hist.MPI-ESM-LR.WRF.day.NAM-44i.raw.nc
+driving_experiment_name	"historical"	tmax.hist.MPI-ESM-MR.CRCM5-UQAM.day.NAM-44i.raw.nc
+driving_experiment_name	"historical"	tmax.hist.GEMatm-Can.CRCM5-UQAM.day.NAM-44i.raw.nc
+driving_experiment_name	"historical"	tmax.hist.MPI-ESM-LR.CRCM5-UQAM.day.NAM-44i.raw.nc
+driving_experiment_name	"historical"	tmax.hist.CanESM2.CRCM5-UQAM.day.NAM-44i.raw.nc
+driving_experiment_name	"historical"	tmax.hist.GEMatm-MPI.CRCM5-UQAM.day.NAM-44i.raw.nc
+driving_experiment_name	"HadGEM2-ES"	tmax.hist.HadGEM2-ES.RegCM4.day.NAM-44i.raw.nc
+driving_experiment_name	"GFDL-ESM2M"	tmax.hist.GFDL-ESM2M.RegCM4.day.NAM-44i.raw.nc
+driving_experiment_name	"MPI-ESM-LR"	tmax.hist.MPI-ESM-LR.RegCM4.day.NAM-44i.raw.nc
+driving_experiment_name	"historical"	tmax.hist.EC-EARTH.HIRHAM5.day.NAM-44i.raw.nc
+driving_experiment_name	"historical"	tmax.hist.EC-EARTH.RCA4.day.NAM-44i.raw.nc
+driving_experiment_name	"historical"	tmax.hist.CanESM2.RCA4.day.NAM-44i.raw.nc
+driving_experiment_name	"historical"	tmax.hist.CanESM2.CanRCM4.day.NAM-44i.raw.nc
+driving_experiment_name	"historical"	tmax.hist.HadGEM2-ES.WRF.day.NAM-44i.raw.nc
+driving_experiment_name	"historical"	tmax.hist.GFDL-ESM2M.WRF.day.NAM-44i.raw.nc
+driving_experiment_name	"historical"	tmax.hist.MPI-ESM-LR.WRF.day.NAM-44i.raw.nc

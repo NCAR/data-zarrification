@@ -1,5 +1,0 @@
-Warning: non-uniform metadata in attribute:  "experiment"
-	First found: "Evaluation run with reanalysis forcing" in tasmax.eval.ERA-Int.CRCM5-UQAM.ann.NAM-22i.raw.nc
-	Then found: "simulation de reference" in tasmax.eval.ERA-Int.CRCM5-OUR.ann.NAM-22i.raw.nc
-	Then found: "Evaluation run with ERA-INTERIM reanalysis forcing" in tasmax.eval.ERA-Int.CanRCM4.ann.NAM-22i.raw.nc
-

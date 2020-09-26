@@ -1,0 +1,6 @@
+experiment	"rcp45"	tas.rcp45.MPI-ESM-LR.CRCM5-UQAM.day.NAM-44i.raw.nc
+experiment	"rcp45"	tas.rcp45.CanESM2.CRCM5-UQAM.day.NAM-44i.raw.nc
+experiment	"ICHEC-EC-EARTH,rcp45,r3i1p1"	tas.rcp45.EC-EARTH.HIRHAM5.day.NAM-44i.raw.nc
+experiment	"RCP4.5"	tas.rcp45.EC-EARTH.RCA4.day.NAM-44i.raw.nc
+experiment	"RCP4.5"	tas.rcp45.CanESM2.RCA4.day.NAM-44i.raw.nc
+experiment	"RCP4.5 run driven by CCCma-CanESM2 "	tas.rcp45.CanESM2.CanRCM4.day.NAM-44i.raw.nc

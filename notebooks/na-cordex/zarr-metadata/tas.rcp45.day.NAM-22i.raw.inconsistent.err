@@ -1,0 +1,6 @@
+experiment	"simulation rcp45 membre #1"	tas.rcp45.GFDL-ESM2M.CRCM5-OUR.day.NAM-22i.raw.nc
+experiment	"simulation future membre #1"	tas.rcp45.CanESM2.CRCM5-OUR.day.NAM-22i.raw.nc
+experiment	"RCP4.5 run driven by CCCma-CanESM2 "	tas.rcp45.CanESM2.CanRCM4.day.NAM-22i.raw.nc
+driving_experiment_name	"r1i1p1"	tas.rcp45.GFDL-ESM2M.CRCM5-OUR.day.NAM-22i.raw.nc
+driving_experiment_name	"r1i1p1"	tas.rcp45.CanESM2.CRCM5-OUR.day.NAM-22i.raw.nc
+driving_experiment_name	"rcp45"	tas.rcp45.CanESM2.CanRCM4.day.NAM-22i.raw.nc
