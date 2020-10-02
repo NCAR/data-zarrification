@@ -1,4 +1,0 @@
-experiment	"Evaluation run with reanalysis forcing"	sfcWind.eval.ERA-Int.CRCM5-UQAM.day.NAM-22i.raw.nc
-experiment	"Evaluation run with reanalysis forcing"	sfcWind.eval.ERA-Int.RegCM4.day.NAM-22i.raw.nc
-experiment	"Evaluation run with ERA-INTERIM reanalysis forcing"	sfcWind.eval.ERA-Int.CanRCM4.day.NAM-22i.raw.nc
-experiment	"Evaluation run with reanalysis forcing"	sfcWind.eval.ERA-Int.WRF.day.NAM-22i.raw.nc

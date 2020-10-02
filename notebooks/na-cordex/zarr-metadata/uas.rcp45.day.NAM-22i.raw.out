@@ -5,7 +5,6 @@
  'driving_experiment_name': 'rcp45',
  'driving_model_ensemble_member': {'CanESM2.CanRCM4': 'r1i1p1'},
  'driving_model_id': {'CanESM2.CanRCM4': 'CCCma-CanESM2'},
- 'experiment': 'RCP4.5 run driven by CCCma-CanESM2',
  'experiment_id': 'rcp45',
  'frequency': 'day',
  'id': 'doi:10.5065/D6SJ1JCH',

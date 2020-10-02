@@ -1,8 +1,0 @@
-experiment	"Historical run driven by MPI-ESM-LR"	prhmax.hist.MPI-ESM-LR.RegCM4.day.NAM-22i.raw.nc
-experiment	"Historical run driven by HadGEM2-ES"	prhmax.hist.HadGEM2-ES.WRF.day.NAM-22i.raw.nc
-experiment	"Historical run driven by GFDL-ESM2M"	prhmax.hist.GFDL-ESM2M.WRF.day.NAM-22i.raw.nc
-experiment	"Historical run driven by MPI-ESM-LR"	prhmax.hist.MPI-ESM-LR.WRF.day.NAM-22i.raw.nc
-driving_experiment_name	"MPI-ESM-LR"	prhmax.hist.MPI-ESM-LR.RegCM4.day.NAM-22i.raw.nc
-driving_experiment_name	"historical"	prhmax.hist.HadGEM2-ES.WRF.day.NAM-22i.raw.nc
-driving_experiment_name	"historical"	prhmax.hist.GFDL-ESM2M.WRF.day.NAM-22i.raw.nc
-driving_experiment_name	"historical"	prhmax.hist.MPI-ESM-LR.WRF.day.NAM-22i.raw.nc

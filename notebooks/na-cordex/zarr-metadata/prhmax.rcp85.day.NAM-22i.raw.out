@@ -12,13 +12,12 @@
                         'HadGEM2-ES.WRF': 'HadGEM2-ES,rcp85,r1i1p1',
                         'MPI-ESM-LR.RegCM4': 'MPI-ESM-LR,rcp85,r1i1p1',
                         'MPI-ESM-LR.WRF': 'MPI-ESM-LR,rcp85,r1i1p1'},
- 'driving_experiment_name': 'MPI-ESM-LR',
+ 'driving_experiment_name': 'rcp85',
  'driving_model_ensemble_member': {'GFDL-ESM2M.WRF': 'r1i1p1', 'HadGEM2-ES.WRF': 'r1i1p1', 'MPI-ESM-LR.RegCM4': 'r1i1p1', 'MPI-ESM-LR.WRF': 'r1i1p1'},
  'driving_model_id': {'GFDL-ESM2M.WRF': 'GFDL-ESM2M',
                       'HadGEM2-ES.WRF': 'HadGEM2-ES',
                       'MPI-ESM-LR.RegCM4': 'MPI-ESM-LR',
                       'MPI-ESM-LR.WRF': 'MPI-ESM-LR'},
- 'experiment': 'Scenario experiment using MPI-ESM-LR as driving model',
  'experiment_id': 'rcp85',
  'frequency': 'day',
  'id': 'doi:10.5065/D6SJ1JCH',
@@ -42,6 +41,6 @@
            'MPI-ESM-LR.WRF': 'NA-CORDEX Raw NAM-22i WRF MPI-ESM-LR RCP8.5 Daily Mean Daily Max Hourly Precip Rate'},
  'tracking_id': {'GFDL-ESM2M.WRF': 'b6400c92-e558-4bfc-86b4-a3835716c661',
                  'HadGEM2-ES.WRF': '2631984e-7815-495b-974a-5cbefba67a27',
-                 'MPI-ESM-LR.RegCM4': 'eb7e0438-3237-421e-b30f-07df85444d70',
+                 'MPI-ESM-LR.RegCM4': '8649958a-32f3-40ca-909e-d19bb12a44e3',
                  'MPI-ESM-LR.WRF': '43671df4-0726-43dd-b6ff-96320a39b327'},
- 'version': {'GFDL-ESM2M.WRF': '1.3', 'HadGEM2-ES.WRF': '1.3', 'MPI-ESM-LR.RegCM4': '1.4', 'MPI-ESM-LR.WRF': '2.3'}}
+ 'version': {'GFDL-ESM2M.WRF': '1.3', 'HadGEM2-ES.WRF': '1.3', 'MPI-ESM-LR.RegCM4': '1.5', 'MPI-ESM-LR.WRF': '2.3'}}

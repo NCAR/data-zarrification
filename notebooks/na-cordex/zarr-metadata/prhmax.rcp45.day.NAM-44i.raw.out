@@ -17,7 +17,6 @@
                       'CanESM2.RCA4': 'CCCma-CanESM2',
                       'EC-EARTH.HIRHAM5': 'ICHEC-EC-EARTH',
                       'EC-EARTH.RCA4': 'ICHEC-EC-EARTH'},
- 'experiment': 'ICHEC-EC-EARTH,rcp45,r3i1p1',
  'experiment_id': 'rcp45',
  'frequency': 'day',
  'id': 'doi:10.5065/D6SJ1JCH',

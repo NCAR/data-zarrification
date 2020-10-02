@@ -26,7 +26,6 @@
                       'ERA-Int.CanRCM4': 'ECMWF-ERAINT',
                       'ERA-Int.RegCM4': 'ECMWF-ERAINT',
                       'ERA-Int.WRF': 'ECMWF-ERAINT'},
- 'experiment': 'Evaluation run with reanalysis forcing',
  'experiment_id': 'evaluation',
  'frequency': 'day',
  'id': 'doi:10.5065/D6SJ1JCH',

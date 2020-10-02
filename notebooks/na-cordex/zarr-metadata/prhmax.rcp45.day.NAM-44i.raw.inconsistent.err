@@ -1,4 +1,0 @@
-experiment	"ICHEC-EC-EARTH,rcp45,r3i1p1"	prhmax.rcp45.EC-EARTH.HIRHAM5.day.NAM-44i.raw.nc
-experiment	"RCP4.5"	prhmax.rcp45.EC-EARTH.RCA4.day.NAM-44i.raw.nc
-experiment	"RCP4.5"	prhmax.rcp45.CanESM2.RCA4.day.NAM-44i.raw.nc
-experiment	"RCP4.5 run driven by CCCma-CanESM2"	prhmax.rcp45.CanESM2.CanRCM4.day.NAM-44i.raw.nc

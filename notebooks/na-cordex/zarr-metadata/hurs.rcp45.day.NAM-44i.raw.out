@@ -30,7 +30,6 @@
                       'EC-EARTH.HIRHAM5': 'ICHEC-EC-EARTH',
                       'EC-EARTH.RCA4': 'ICHEC-EC-EARTH',
                       'MPI-ESM-LR.CRCM5-UQAM': 'MPI-M-MPI-ESM-LR'},
- 'experiment': 'rcp45',
  'experiment_id': 'rcp45',
  'frequency': 'day',
  'id': 'doi:10.5065/D6SJ1JCH',
