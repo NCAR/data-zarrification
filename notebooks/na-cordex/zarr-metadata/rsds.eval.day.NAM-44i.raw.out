@@ -62,6 +62,7 @@
                     'ERA-Int.WRF': 'v3.5.1'},
  'references': {'ERA-Int.CRCM5-UQAM': 'http://www.mrcc.uqam.ca',
                 'ERA-Int.CanRCM4': 'http://www.cccma.ec.gc.ca/models',
+                'ERA-Int.HIRHAM5': 'Christensen, et al. "The HIRHAM regional climate model. Version 5 (beta)." (2007).',
                 'ERA-Int.RCA4': 'http://www.smhi.se/en/Research/Research-departments/climate-research-rossby-centre',
                 'ERA-Int.RegCM4': 'Elguindi, et al. Regional climate model RegCM user manual version 4.4. The Abdus Salam International Centre for '
                                   'Theoretical Physics, Strada Costiera, Trieste, Italy. (2013).',
@@ -74,13 +75,13 @@
            'ERA-Int.WRF': 'NA-CORDEX Raw NAM-44i WRF ERA-Int Eval Daily Mean Incoming Shortwave Radiation'},
  'tracking_id': {'ERA-Int.CRCM5-UQAM': 'b413a8f1-9a6c-4644-85bf-c3df2311325d',
                  'ERA-Int.CanRCM4': '0491f5e3-9c3e-40d0-a159-5649cbabb3d4',
-                 'ERA-Int.HIRHAM5': 'd8b1271a-c584-4e4a-ad18-ab4977d2e4a6',
+                 'ERA-Int.HIRHAM5': 'd7ebb311-233b-493e-afdf-ceeadc131a6e',
                  'ERA-Int.RCA4': '9f184439-b55e-4c72-8161-e2bd7f9cf428',
                  'ERA-Int.RegCM4': '9b323742-600b-4e3f-887f-3ab48d8c6634',
                  'ERA-Int.WRF': '7ba0b1af-0c63-4e03-a673-623898bb2529'},
  'version': {'ERA-Int.CRCM5-UQAM': '1.1',
              'ERA-Int.CanRCM4': '1.2',
-             'ERA-Int.HIRHAM5': '1.0',
+             'ERA-Int.HIRHAM5': '1.1',
              'ERA-Int.RCA4': '1.0',
              'ERA-Int.RegCM4': '2.1',
              'ERA-Int.WRF': '2.3'}}

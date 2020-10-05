@@ -44,6 +44,7 @@
  'project_id': 'CORDEX',
  'rcm_version_id': {'ERA-Int.CanRCM4': 'r2', 'ERA-Int.HIRHAM5': 'v1', 'ERA-Int.RCA4': 'v1', 'ERA-Int.RegCM4': 'v4.4-rc8', 'ERA-Int.WRF': 'v3.5.1'},
  'references': {'ERA-Int.CanRCM4': 'http://www.cccma.ec.gc.ca/models',
+                'ERA-Int.HIRHAM5': 'Christensen, et al. "The HIRHAM regional climate model. Version 5 (beta)." (2007).',
                 'ERA-Int.RCA4': 'http://www.smhi.se/en/Research/Research-departments/climate-research-rossby-centre',
                 'ERA-Int.RegCM4': 'Elguindi, et al. Regional climate model RegCM user manual version 4.4. The Abdus Salam International Centre for '
                                   'Theoretical Physics, Strada Costiera, Trieste, Italy. (2013).',
@@ -54,8 +55,8 @@
            'ERA-Int.RegCM4': 'NA-CORDEX Raw NAM-44i RegCM4 ERA-Int Eval Daily Mean Daily Max Hourly Precip Rate',
            'ERA-Int.WRF': 'NA-CORDEX Raw NAM-44i WRF ERA-Int Eval Daily Mean Daily Max Hourly Precip Rate'},
  'tracking_id': {'ERA-Int.CanRCM4': 'b188d723-1eeb-4ffd-a2f1-11a328632b07',
-                 'ERA-Int.HIRHAM5': '059243fa-200d-401c-8d3c-57ff9e14a71f',
+                 'ERA-Int.HIRHAM5': 'f491dc55-07bf-4357-a219-ca5aac2f5364',
                  'ERA-Int.RCA4': '1ce69f7d-35fe-4453-bfa1-3cd28f5ba888',
                  'ERA-Int.RegCM4': 'd800a81e-9d6a-4b48-bbd9-5215562afff6',
                  'ERA-Int.WRF': '0f6b3cc1-9db1-4afc-b23a-2e0a29588bdf'},
- 'version': {'ERA-Int.CanRCM4': '1.3', 'ERA-Int.HIRHAM5': '1.0', 'ERA-Int.RCA4': '1.0', 'ERA-Int.RegCM4': '2.2', 'ERA-Int.WRF': '2.3'}}
+ 'version': {'ERA-Int.CanRCM4': '1.3', 'ERA-Int.HIRHAM5': '1.1', 'ERA-Int.RCA4': '1.0', 'ERA-Int.RegCM4': '2.2', 'ERA-Int.WRF': '2.3'}}
