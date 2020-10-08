@@ -1,50 +1,62 @@
 scenarios: 
    - hist
-   #- rcp85
+   - rcp85
+   - eval
+   #- rcp45
 frequencies: 
-   - day
+   - day 
+   #- fixed
+   #- ann
+   #- seas
+   #- yseas
+   #- mon
+   #- ymon
+   #- 6hr
+   #- 3hr
+   #- 1hr
 biascorrections: 
    - raw
+   #- mbcn-gridMET
+   #- mbcn-Daymet   
 variables:
+   - tas
    - tasmax
-   #- tasmin
-   #- pr
-   #- prec
-   #- prhmax
-   #- ps
-   #- rsds
-   #- tas
-   #- temp
-   #- tmax
-   #- tmin
-   #- uas
-   #- vas
-   #- huss
+   - tasmin
+   - pr
+   - huss
+   - prec
+   - ps
+   - rsds
+   - temp
+   - tmax
+   - tmin
+   - uas
    # Completed variables
    # PROBLEM VARIABLES
-   #- hurs
-   #- sfcWind
+   - sfcWind
+   - hurs
+   - vas
+   #- prhmax
+   # LOW PRIORITY VARIABLES
+   #- orog
+   #- sftlf
 grid_categories:
-   high_res: 
+   high_res_i: 
       grid: NAM-22i
       chunks:
          time: 1000
          lat: 65
          lon: 120
-
-
-#   low_res:
-#      grid: NAM-44i
-#      chunks:
-#         time: 20
-#         lat: 3
-#         lon: 3
-#         member_id: 4          
+   #low_res_i:
+   #   grid: NAM-44i
+   #   chunks:
+   #      time: 1000
+   #      lat: 65
+   #      lon: 150
 
 target_metadata:
    keep_first:
       - CORDEX_domain
-      - experiment
       - experiment_id
       - driving_experiment_name
       - frequency
@@ -53,6 +65,7 @@ target_metadata:
       - product
    keep_all:
       - contact
+      - contact_note
       - creation_date
       - driving_model_id
       - driving_model_ensemble_member
