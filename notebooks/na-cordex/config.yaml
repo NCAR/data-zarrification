@@ -1,8 +1,8 @@
 scenarios: 
-   - hist
-   - rcp85
-   - eval
-   #- rcp45
+   #- hist
+   #- rcp85
+   #- eval
+   - rcp45
 frequencies: 
    - day 
    #- fixed
@@ -19,40 +19,40 @@ biascorrections:
    #- mbcn-gridMET
    #- mbcn-Daymet   
 variables:
-   - tas
-   - tasmax
-   - tasmin
-   - pr
-   - huss
-   - prec
-   - ps
-   - rsds
-   - temp
-   - tmax
-   - tmin
-   - uas
+   #- tas
+   #- tasmax
+   #- tasmin
+   #- pr
+   #- huss
+   #- prec
+   #- ps
+   #- rsds
+   #- temp
+   #- tmax
+   #- tmin
+   #- uas
    # Completed variables
    # PROBLEM VARIABLES
-   - sfcWind
-   - hurs
-   - vas
-   #- prhmax
+   #- sfcWind
+   #- hurs
+   #- vas
+   - prhmax
    # LOW PRIORITY VARIABLES
    #- orog
    #- sftlf
 grid_categories:
-   high_res_i: 
-      grid: NAM-22i
-      chunks:
-         time: 1000
-         lat: 65
-         lon: 120
-   #low_res_i:
-   #   grid: NAM-44i
+   #high_res_i: 
+   #   grid: NAM-22i
    #   chunks:
    #      time: 1000
    #      lat: 65
-   #      lon: 150
+   #      lon: 120
+   low_res_i:
+      grid: NAM-44i
+      chunks:
+         time: 1000
+         lat: 65
+         lon: 150
 
 target_metadata:
    keep_first:
