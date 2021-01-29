@@ -1,1 +1,1 @@
-# Zarr-ification of CESM LENS data for AWS Transfer
+# Zarr-ification of NCAR-hosted datasets for AWS Transfer
