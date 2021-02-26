@@ -1,8 +1,8 @@
 scenarios: 
-   #- eval
+   - eval
    #- hist
    #- rcp85
-   - rcp45
+   #- rcp45
 frequencies: 
    - day 
    #- fixed
@@ -73,6 +73,7 @@ target_metadata:
       - institution
       - institute_id
       - model_id
+      - original_calendar
       - rcm_version_id
       - references
       - tracking_id
