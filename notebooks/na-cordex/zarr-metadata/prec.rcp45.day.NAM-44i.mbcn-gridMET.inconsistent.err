@@ -1,0 +1,6 @@
+cell_methods	"time: mean"	prec.rcp45.MPI-ESM-LR.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: mean"	prec.rcp45.CanESM2.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: mean"	prec.rcp45.EC-EARTH.HIRHAM5.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: mean"	prec.rcp45.EC-EARTH.RCA4.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: mean"	prec.rcp45.CanESM2.RCA4.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time:mean (interval:1200 seconds)"	prec.rcp45.CanESM2.CanRCM4.day.NAM-44i.mbcn-gridMET.nc

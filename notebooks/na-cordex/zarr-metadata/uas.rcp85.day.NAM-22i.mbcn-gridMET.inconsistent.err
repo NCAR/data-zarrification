@@ -1,0 +1,24 @@
+driving_experiment_name	"rcp85"	uas.rcp85.MPI-ESM-MR.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	uas.rcp85.GEMatm-Can.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	uas.rcp85.MPI-ESM-LR.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	uas.rcp85.CanESM2.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	uas.rcp85.GEMatm-MPI.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"HadGEM2-ES"	uas.rcp85.HadGEM2-ES.RegCM4.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"GFDL-ESM2M"	uas.rcp85.GFDL-ESM2M.RegCM4.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"MPI-ESM-LR"	uas.rcp85.MPI-ESM-LR.RegCM4.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	uas.rcp85.CanESM2.CanRCM4.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	uas.rcp85.HadGEM2-ES.WRF.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	uas.rcp85.GFDL-ESM2M.WRF.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	uas.rcp85.MPI-ESM-LR.WRF.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: mean"	uas.rcp85.MPI-ESM-MR.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: mean"	uas.rcp85.GEMatm-Can.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: mean"	uas.rcp85.MPI-ESM-LR.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: mean"	uas.rcp85.CanESM2.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: mean"	uas.rcp85.GEMatm-MPI.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: point m10: mean time: mean"	uas.rcp85.HadGEM2-ES.RegCM4.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: point m10: mean time: mean"	uas.rcp85.GFDL-ESM2M.RegCM4.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: point m10: mean time: mean (interval: 1 days)"	uas.rcp85.MPI-ESM-LR.RegCM4.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time:mean (interval:600 seconds)"	uas.rcp85.CanESM2.CanRCM4.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: mean"	uas.rcp85.HadGEM2-ES.WRF.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: mean"	uas.rcp85.GFDL-ESM2M.WRF.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: mean"	uas.rcp85.MPI-ESM-LR.WRF.day.NAM-22i.mbcn-gridMET.nc

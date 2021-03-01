@@ -1,0 +1,36 @@
+driving_experiment_name	"historical"	tmin.hist.MPI-ESM-MR.CRCM5-UQAM.day.NAM-22i.mbcn-Daymet.nc
+driving_experiment_name	"historical"	tmin.hist.GEMatm-Can.CRCM5-UQAM.day.NAM-22i.mbcn-Daymet.nc
+driving_experiment_name	"historical"	tmin.hist.MPI-ESM-LR.CRCM5-UQAM.day.NAM-22i.mbcn-Daymet.nc
+driving_experiment_name	"historical"	tmin.hist.CanESM2.CRCM5-UQAM.day.NAM-22i.mbcn-Daymet.nc
+driving_experiment_name	"historical"	tmin.hist.GEMatm-MPI.CRCM5-UQAM.day.NAM-22i.mbcn-Daymet.nc
+driving_experiment_name	"HadGEM2-ES"	tmin.hist.HadGEM2-ES.RegCM4.day.NAM-22i.mbcn-Daymet.nc
+driving_experiment_name	"GFDL-ESM2M"	tmin.hist.GFDL-ESM2M.RegCM4.day.NAM-22i.mbcn-Daymet.nc
+driving_experiment_name	"MPI-ESM-LR"	tmin.hist.MPI-ESM-LR.RegCM4.day.NAM-22i.mbcn-Daymet.nc
+driving_experiment_name	"historical"	tmin.hist.CanESM2.CanRCM4.day.NAM-22i.mbcn-Daymet.nc
+driving_experiment_name	"historical"	tmin.hist.HadGEM2-ES.WRF.day.NAM-22i.mbcn-Daymet.nc
+driving_experiment_name	"historical"	tmin.hist.GFDL-ESM2M.WRF.day.NAM-22i.mbcn-Daymet.nc
+driving_experiment_name	"historical"	tmin.hist.MPI-ESM-LR.WRF.day.NAM-22i.mbcn-Daymet.nc
+cell_methods	"time: minimum"	tmin.hist.MPI-ESM-MR.CRCM5-UQAM.day.NAM-22i.mbcn-Daymet.nc
+cell_methods	"time: minimum"	tmin.hist.GEMatm-Can.CRCM5-UQAM.day.NAM-22i.mbcn-Daymet.nc
+cell_methods	"time: minimum"	tmin.hist.MPI-ESM-LR.CRCM5-UQAM.day.NAM-22i.mbcn-Daymet.nc
+cell_methods	"time: minimum"	tmin.hist.CanESM2.CRCM5-UQAM.day.NAM-22i.mbcn-Daymet.nc
+cell_methods	"time: minimum"	tmin.hist.GEMatm-MPI.CRCM5-UQAM.day.NAM-22i.mbcn-Daymet.nc
+cell_methods	"time: minimum"	tmin.hist.HadGEM2-ES.RegCM4.day.NAM-22i.mbcn-Daymet.nc
+cell_methods	"time: minimum"	tmin.hist.GFDL-ESM2M.RegCM4.day.NAM-22i.mbcn-Daymet.nc
+cell_methods	"time: minimum"	tmin.hist.MPI-ESM-LR.RegCM4.day.NAM-22i.mbcn-Daymet.nc
+cell_methods	"time:minimum"	tmin.hist.CanESM2.CanRCM4.day.NAM-22i.mbcn-Daymet.nc
+cell_methods	"time: minimum"	tmin.hist.HadGEM2-ES.WRF.day.NAM-22i.mbcn-Daymet.nc
+cell_methods	"time: minimum"	tmin.hist.GFDL-ESM2M.WRF.day.NAM-22i.mbcn-Daymet.nc
+cell_methods	"time: minimum"	tmin.hist.MPI-ESM-LR.WRF.day.NAM-22i.mbcn-Daymet.nc
+bias_correction	"MBCN using Daymet obs"	tmin.hist.MPI-ESM-MR.CRCM5-UQAM.day.NAM-22i.mbcn-Daymet.nc
+bias_correction	"MBCN using Daymet obs"	tmin.hist.GEMatm-Can.CRCM5-UQAM.day.NAM-22i.mbcn-Daymet.nc
+bias_correction	"MBCN using Daymet obs"	tmin.hist.MPI-ESM-LR.CRCM5-UQAM.day.NAM-22i.mbcn-Daymet.nc
+bias_correction	"MBCN using Daymet obs"	tmin.hist.CanESM2.CRCM5-UQAM.day.NAM-22i.mbcn-Daymet.nc
+bias_correction	"MBCN using Daymet obs"	tmin.hist.GEMatm-MPI.CRCM5-UQAM.day.NAM-22i.mbcn-Daymet.nc
+bias_correction	"MBCn using Daymet obs"	tmin.hist.HadGEM2-ES.RegCM4.day.NAM-22i.mbcn-Daymet.nc
+bias_correction	"MBCN using Daymet obs"	tmin.hist.GFDL-ESM2M.RegCM4.day.NAM-22i.mbcn-Daymet.nc
+bias_correction	"MBCN using Daymet obs"	tmin.hist.MPI-ESM-LR.RegCM4.day.NAM-22i.mbcn-Daymet.nc
+bias_correction	"MBCN using Daymet obs"	tmin.hist.CanESM2.CanRCM4.day.NAM-22i.mbcn-Daymet.nc
+bias_correction	"MBCN using Daymet obs"	tmin.hist.HadGEM2-ES.WRF.day.NAM-22i.mbcn-Daymet.nc
+bias_correction	"MBCN using Daymet obs"	tmin.hist.GFDL-ESM2M.WRF.day.NAM-22i.mbcn-Daymet.nc
+bias_correction	"MBCN using Daymet obs"	tmin.hist.MPI-ESM-LR.WRF.day.NAM-22i.mbcn-Daymet.nc

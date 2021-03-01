@@ -1,0 +1,45 @@
+driving_experiment_name	"rcp85"	huss.rcp85.MPI-ESM-MR.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	huss.rcp85.GEMatm-Can.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	huss.rcp85.MPI-ESM-LR.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	huss.rcp85.CanESM2.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	huss.rcp85.GEMatm-MPI.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"HadGEM2-ES"	huss.rcp85.HadGEM2-ES.RegCM4.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"GFDL-ESM2M"	huss.rcp85.GFDL-ESM2M.RegCM4.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"MPI-ESM-LR"	huss.rcp85.MPI-ESM-LR.RegCM4.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	huss.rcp85.EC-EARTH.HIRHAM5.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	huss.rcp85.EC-EARTH.RCA4.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	huss.rcp85.CanESM2.RCA4.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	huss.rcp85.CanESM2.CanRCM4.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	huss.rcp85.HadGEM2-ES.WRF.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	huss.rcp85.GFDL-ESM2M.WRF.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	huss.rcp85.MPI-ESM-LR.WRF.day.NAM-44i.mbcn-gridMET.nc
+units	"1"	huss.rcp85.MPI-ESM-MR.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+units	"1"	huss.rcp85.GEMatm-Can.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+units	"1"	huss.rcp85.MPI-ESM-LR.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+units	"1"	huss.rcp85.CanESM2.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+units	"1"	huss.rcp85.GEMatm-MPI.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+units	"kg kg-1"	huss.rcp85.HadGEM2-ES.RegCM4.day.NAM-44i.mbcn-gridMET.nc
+units	"kg kg-1"	huss.rcp85.GFDL-ESM2M.RegCM4.day.NAM-44i.mbcn-gridMET.nc
+units	"kg kg-1"	huss.rcp85.MPI-ESM-LR.RegCM4.day.NAM-44i.mbcn-gridMET.nc
+units	"1"	huss.rcp85.EC-EARTH.HIRHAM5.day.NAM-44i.mbcn-gridMET.nc
+units	"1"	huss.rcp85.EC-EARTH.RCA4.day.NAM-44i.mbcn-gridMET.nc
+units	"1"	huss.rcp85.CanESM2.RCA4.day.NAM-44i.mbcn-gridMET.nc
+units	"kg kg-1"	huss.rcp85.CanESM2.CanRCM4.day.NAM-44i.mbcn-gridMET.nc
+units	"kg kg-1"	huss.rcp85.HadGEM2-ES.WRF.day.NAM-44i.mbcn-gridMET.nc
+units	"kg kg-1"	huss.rcp85.GFDL-ESM2M.WRF.day.NAM-44i.mbcn-gridMET.nc
+units	"kg kg-1"	huss.rcp85.MPI-ESM-LR.WRF.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: mean"	huss.rcp85.MPI-ESM-MR.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: mean"	huss.rcp85.GEMatm-Can.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: mean"	huss.rcp85.MPI-ESM-LR.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: mean"	huss.rcp85.CanESM2.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: mean"	huss.rcp85.GEMatm-MPI.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: point m2: mean time: mean"	huss.rcp85.HadGEM2-ES.RegCM4.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: point m2: mean time: mean"	huss.rcp85.GFDL-ESM2M.RegCM4.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: point m2: mean time: mean"	huss.rcp85.MPI-ESM-LR.RegCM4.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: mean"	huss.rcp85.EC-EARTH.HIRHAM5.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: mean"	huss.rcp85.EC-EARTH.RCA4.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: mean"	huss.rcp85.CanESM2.RCA4.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time:mean (interval:1200 seconds)"	huss.rcp85.CanESM2.CanRCM4.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: mean"	huss.rcp85.HadGEM2-ES.WRF.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: mean"	huss.rcp85.GFDL-ESM2M.WRF.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: mean"	huss.rcp85.MPI-ESM-LR.WRF.day.NAM-44i.mbcn-gridMET.nc
