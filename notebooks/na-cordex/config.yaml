@@ -1,6 +1,6 @@
 scenarios: 
-   - eval
-   #- hist
+   #- eval
+   - hist
    #- rcp85
    #- rcp45
 frequencies: 
@@ -15,25 +15,25 @@ frequencies:
    #- 3hr
    #- 1hr
 biascorrections: 
-   - raw
-   #- mbcn-gridMET
-   #- mbcn-Daymet   
+   #- raw
+   - mbcn-gridMET
+   - mbcn-Daymet   
 variables:
-   - tas
+   #- tas
    #- tasmax
    #- tasmin
-   - temp
+   #- temp
    #- tmax
    #- tmin
    #- pr
-   #- huss
+   - huss
    #- prec
    #- ps
    #- rsds
    #- uas
    #- sfcWind
-   #- hurs
-   #- vas
+   - hurs
+   - vas
    # Completed variables
    # PROBLEM VARIABLES
    # LOW PRIORITY VARIABLES
