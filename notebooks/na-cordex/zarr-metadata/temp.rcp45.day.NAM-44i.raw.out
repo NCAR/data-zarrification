@@ -83,3 +83,15 @@
              'EC-EARTH.HIRHAM5': '1.2',
              'EC-EARTH.RCA4': '1.1',
              'MPI-ESM-LR.CRCM5-UQAM': '1.2'}}
+var metadata:
+{'cell_methods': 'time: mean',
+ 'long_name': 'Near-Surface Air Temperature',
+ 'remap': 'remapped via ESMF_regrid_with_weights: Higher-order Patch',
+ 'standard_name': 'air_temperature',
+ 'units': 'degC'}
+lon metadata:
+{'long_name': 'longitude', 'standard_name': 'longitude', 'units': 'degrees_east'}
+time metadata:
+{'axis': 'T', 'bounds': 'time_bnds', 'calendar': 'gregorian', 'long_name': 'time', 'standard_name': 'time', 'units': 'days since 1949-12-01'}
+lat metadata:
+{'long_name': 'latitude', 'standard_name': 'latitude', 'units': 'degrees_north'}

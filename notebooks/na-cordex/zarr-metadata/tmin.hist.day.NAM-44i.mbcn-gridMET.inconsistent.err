@@ -1,0 +1,30 @@
+driving_experiment_name	"historical"	tmin.hist.MPI-ESM-MR.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"historical"	tmin.hist.GEMatm-Can.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"historical"	tmin.hist.MPI-ESM-LR.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"historical"	tmin.hist.CanESM2.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"historical"	tmin.hist.GEMatm-MPI.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"HadGEM2-ES"	tmin.hist.HadGEM2-ES.RegCM4.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"GFDL-ESM2M"	tmin.hist.GFDL-ESM2M.RegCM4.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"MPI-ESM-LR"	tmin.hist.MPI-ESM-LR.RegCM4.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"historical"	tmin.hist.EC-EARTH.HIRHAM5.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"historical"	tmin.hist.EC-EARTH.RCA4.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"historical"	tmin.hist.CanESM2.RCA4.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"historical"	tmin.hist.CanESM2.CanRCM4.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"historical"	tmin.hist.HadGEM2-ES.WRF.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"historical"	tmin.hist.GFDL-ESM2M.WRF.day.NAM-44i.mbcn-gridMET.nc
+driving_experiment_name	"historical"	tmin.hist.MPI-ESM-LR.WRF.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: minimum"	tmin.hist.MPI-ESM-MR.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: minimum"	tmin.hist.GEMatm-Can.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: minimum"	tmin.hist.MPI-ESM-LR.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: minimum"	tmin.hist.CanESM2.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: minimum"	tmin.hist.GEMatm-MPI.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: minimum"	tmin.hist.HadGEM2-ES.RegCM4.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: minimum"	tmin.hist.GFDL-ESM2M.RegCM4.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: minimum m2: mean"	tmin.hist.MPI-ESM-LR.RegCM4.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: minimum"	tmin.hist.EC-EARTH.HIRHAM5.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: minimum"	tmin.hist.EC-EARTH.RCA4.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: minimum"	tmin.hist.CanESM2.RCA4.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time:minimum"	tmin.hist.CanESM2.CanRCM4.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: minimum"	tmin.hist.HadGEM2-ES.WRF.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: minimum"	tmin.hist.GFDL-ESM2M.WRF.day.NAM-44i.mbcn-gridMET.nc
+cell_methods	"time: minimum"	tmin.hist.MPI-ESM-LR.WRF.day.NAM-44i.mbcn-gridMET.nc

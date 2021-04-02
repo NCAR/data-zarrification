@@ -1,0 +1,12 @@
+institute_id	tmax.hist.MPI-ESM-MR.CRCM5-UQAM.day.NAM-44i.mbcn-Daymet.nc
+institute_id	tmax.hist.GEMatm-Can.CRCM5-UQAM.day.NAM-44i.mbcn-Daymet.nc
+institute_id	tmax.hist.MPI-ESM-LR.CRCM5-UQAM.day.NAM-44i.mbcn-Daymet.nc
+institute_id	tmax.hist.CanESM2.CRCM5-UQAM.day.NAM-44i.mbcn-Daymet.nc
+institute_id	tmax.hist.GEMatm-MPI.CRCM5-UQAM.day.NAM-44i.mbcn-Daymet.nc
+institute_id	tmax.hist.EC-EARTH.HIRHAM5.day.NAM-44i.mbcn-Daymet.nc
+institute_id	tmax.hist.EC-EARTH.RCA4.day.NAM-44i.mbcn-Daymet.nc
+institute_id	tmax.hist.CanESM2.RCA4.day.NAM-44i.mbcn-Daymet.nc
+institute_id	tmax.hist.CanESM2.CanRCM4.day.NAM-44i.mbcn-Daymet.nc
+references	tmax.hist.EC-EARTH.HIRHAM5.day.NAM-44i.mbcn-Daymet.nc
+climatology	(Missing from all source files)
+height	(Missing from all source files)

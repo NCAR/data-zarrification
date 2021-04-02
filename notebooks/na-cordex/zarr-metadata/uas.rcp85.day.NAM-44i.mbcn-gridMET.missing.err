@@ -1,0 +1,12 @@
+institute_id	uas.rcp85.MPI-ESM-MR.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+institute_id	uas.rcp85.GEMatm-Can.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+institute_id	uas.rcp85.MPI-ESM-LR.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+institute_id	uas.rcp85.CanESM2.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+institute_id	uas.rcp85.GEMatm-MPI.CRCM5-UQAM.day.NAM-44i.mbcn-gridMET.nc
+institute_id	uas.rcp85.EC-EARTH.HIRHAM5.day.NAM-44i.mbcn-gridMET.nc
+institute_id	uas.rcp85.EC-EARTH.RCA4.day.NAM-44i.mbcn-gridMET.nc
+institute_id	uas.rcp85.CanESM2.RCA4.day.NAM-44i.mbcn-gridMET.nc
+institute_id	uas.rcp85.CanESM2.CanRCM4.day.NAM-44i.mbcn-gridMET.nc
+references	uas.rcp85.EC-EARTH.HIRHAM5.day.NAM-44i.mbcn-gridMET.nc
+climatology	(Missing from all source files)
+height	(Missing from all source files)

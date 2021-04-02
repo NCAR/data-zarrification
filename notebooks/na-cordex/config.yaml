@@ -1,8 +1,8 @@
 scenarios: 
-   #- hist
-   #- rcp85
    #- eval
-   - rcp45
+   - hist
+   #- rcp85
+   #- rcp45
 frequencies: 
    - day 
    #- fixed
@@ -15,38 +15,38 @@ frequencies:
    #- 3hr
    #- 1hr
 biascorrections: 
-   - raw
-   #- mbcn-gridMET
-   #- mbcn-Daymet   
+   #- raw
+   - mbcn-gridMET
+   - mbcn-Daymet   
 variables:
    #- tas
    #- tasmax
    #- tasmin
-   #- pr
-   #- huss
-   #- prec
-   #- ps
-   #- rsds
    #- temp
    #- tmax
    #- tmin
+   #- pr
+   - huss
+   #- prec
+   #- ps
+   #- rsds
    #- uas
+   #- sfcWind
+   - hurs
+   - vas
    # Completed variables
    # PROBLEM VARIABLES
-   #- sfcWind
-   #- hurs
-   #- vas
-   - prhmax
    # LOW PRIORITY VARIABLES
+   #- prhmax
    #- orog
    #- sftlf
 grid_categories:
-   #high_res_i: 
-   #   grid: NAM-22i
-   #   chunks:
-   #      time: 1000
-   #      lat: 65
-   #      lon: 120
+   high_res_i: 
+      grid: NAM-22i
+      chunks:
+         time: 1000
+         lat: 65
+         lon: 120
    low_res_i:
       grid: NAM-44i
       chunks:
@@ -73,10 +73,22 @@ target_metadata:
       - institution
       - institute_id
       - model_id
+      - original_calendar
       - rcm_version_id
       - references
       - tracking_id
       - title
       - version
       
-        
+var_coord_metadata:
+   - long_name
+   - standard_name
+   - units
+   - axis
+   - bounds
+   - climatology
+   - cell_methods
+   - remap
+   - bias_correction
+   - height
+      

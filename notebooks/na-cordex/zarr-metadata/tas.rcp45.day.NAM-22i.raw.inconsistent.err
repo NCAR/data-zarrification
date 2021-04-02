@@ -1,0 +1,3 @@
+cell_methods	"time: mean"	tas.rcp45.GFDL-ESM2M.CRCM5-OUR.day.NAM-22i.raw.nc
+cell_methods	"time: mean"	tas.rcp45.CanESM2.CRCM5-OUR.day.NAM-22i.raw.nc
+cell_methods	"time:mean (interval:600 seconds)"	tas.rcp45.CanESM2.CanRCM4.day.NAM-22i.raw.nc

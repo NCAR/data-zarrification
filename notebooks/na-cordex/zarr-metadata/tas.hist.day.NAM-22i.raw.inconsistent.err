@@ -1,0 +1,16 @@
+cell_methods	"time: mean"	tas.hist.MPI-ESM-MR.CRCM5-UQAM.day.NAM-22i.raw.nc
+cell_methods	"time: mean"	tas.hist.GEMatm-Can.CRCM5-UQAM.day.NAM-22i.raw.nc
+cell_methods	"time: mean"	tas.hist.MPI-ESM-LR.CRCM5-UQAM.day.NAM-22i.raw.nc
+cell_methods	"time: mean"	tas.hist.CanESM2.CRCM5-UQAM.day.NAM-22i.raw.nc
+cell_methods	"time: mean"	tas.hist.GEMatm-MPI.CRCM5-UQAM.day.NAM-22i.raw.nc
+cell_methods	"time: mean"	tas.hist.CNRM-CM5.CRCM5-OUR.day.NAM-22i.raw.nc
+cell_methods	"time: mean"	tas.hist.GFDL-ESM2M.CRCM5-OUR.day.NAM-22i.raw.nc
+cell_methods	"time: mean"	tas.hist.MPI-ESM-LR.CRCM5-OUR.day.NAM-22i.raw.nc
+cell_methods	"time: mean"	tas.hist.CanESM2.CRCM5-OUR.day.NAM-22i.raw.nc
+cell_methods	"time: mean m2: mean"	tas.hist.HadGEM2-ES.RegCM4.day.NAM-22i.raw.nc
+cell_methods	"time: mean m2: mean"	tas.hist.GFDL-ESM2M.RegCM4.day.NAM-22i.raw.nc
+cell_methods	"time: mean m2: mean"	tas.hist.MPI-ESM-LR.RegCM4.day.NAM-22i.raw.nc
+cell_methods	"time:mean (interval:600 seconds)"	tas.hist.CanESM2.CanRCM4.day.NAM-22i.raw.nc
+cell_methods	"time: mean"	tas.hist.HadGEM2-ES.WRF.day.NAM-22i.raw.nc
+cell_methods	"time: mean"	tas.hist.GFDL-ESM2M.WRF.day.NAM-22i.raw.nc
+cell_methods	"time: mean"	tas.hist.MPI-ESM-LR.WRF.day.NAM-22i.raw.nc

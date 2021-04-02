@@ -1,0 +1,15 @@
+cell_methods	"time: mean"	temp.hist.MPI-ESM-MR.CRCM5-UQAM.day.NAM-44i.raw.nc
+cell_methods	"time: mean"	temp.hist.GEMatm-Can.CRCM5-UQAM.day.NAM-44i.raw.nc
+cell_methods	"time: mean"	temp.hist.MPI-ESM-LR.CRCM5-UQAM.day.NAM-44i.raw.nc
+cell_methods	"time: mean"	temp.hist.CanESM2.CRCM5-UQAM.day.NAM-44i.raw.nc
+cell_methods	"time: mean"	temp.hist.GEMatm-MPI.CRCM5-UQAM.day.NAM-44i.raw.nc
+cell_methods	"time: mean m2: mean"	temp.hist.HadGEM2-ES.RegCM4.day.NAM-44i.raw.nc
+cell_methods	"time: mean m2: mean"	temp.hist.GFDL-ESM2M.RegCM4.day.NAM-44i.raw.nc
+cell_methods	"time: mean m2: mean"	temp.hist.MPI-ESM-LR.RegCM4.day.NAM-44i.raw.nc
+cell_methods	"time: mean"	temp.hist.EC-EARTH.HIRHAM5.day.NAM-44i.raw.nc
+cell_methods	"time: mean"	temp.hist.EC-EARTH.RCA4.day.NAM-44i.raw.nc
+cell_methods	"time: mean"	temp.hist.CanESM2.RCA4.day.NAM-44i.raw.nc
+cell_methods	"time:mean (interval:1200 seconds)"	temp.hist.CanESM2.CanRCM4.day.NAM-44i.raw.nc
+cell_methods	"time: mean"	temp.hist.HadGEM2-ES.WRF.day.NAM-44i.raw.nc
+cell_methods	"time: mean"	temp.hist.GFDL-ESM2M.WRF.day.NAM-44i.raw.nc
+cell_methods	"time: mean"	temp.hist.MPI-ESM-LR.WRF.day.NAM-44i.raw.nc

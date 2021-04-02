@@ -1,0 +1,24 @@
+driving_experiment_name	"rcp85"	sfcWind.rcp85.MPI-ESM-MR.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	sfcWind.rcp85.GEMatm-Can.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	sfcWind.rcp85.MPI-ESM-LR.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	sfcWind.rcp85.CanESM2.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	sfcWind.rcp85.GEMatm-MPI.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"HadGEM2-ES"	sfcWind.rcp85.HadGEM2-ES.RegCM4.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"GFDL-ESM2M"	sfcWind.rcp85.GFDL-ESM2M.RegCM4.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"MPI-ESM-LR"	sfcWind.rcp85.MPI-ESM-LR.RegCM4.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	sfcWind.rcp85.CanESM2.CanRCM4.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	sfcWind.rcp85.HadGEM2-ES.WRF.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	sfcWind.rcp85.GFDL-ESM2M.WRF.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"rcp85"	sfcWind.rcp85.MPI-ESM-LR.WRF.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: mean"	sfcWind.rcp85.MPI-ESM-MR.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: mean"	sfcWind.rcp85.GEMatm-Can.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: mean"	sfcWind.rcp85.MPI-ESM-LR.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: mean"	sfcWind.rcp85.CanESM2.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: mean"	sfcWind.rcp85.GEMatm-MPI.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: point m10: mean time: mean"	sfcWind.rcp85.HadGEM2-ES.RegCM4.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: point m10: mean time: mean"	sfcWind.rcp85.GFDL-ESM2M.RegCM4.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: point m10: mean time: mean (interval: 1 days)"	sfcWind.rcp85.MPI-ESM-LR.RegCM4.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time:mean (interval:600 seconds)"	sfcWind.rcp85.CanESM2.CanRCM4.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: mean"	sfcWind.rcp85.HadGEM2-ES.WRF.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: mean"	sfcWind.rcp85.GFDL-ESM2M.WRF.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: mean"	sfcWind.rcp85.MPI-ESM-LR.WRF.day.NAM-22i.mbcn-gridMET.nc

@@ -1,0 +1,6 @@
+cell_methods	"time: mean"	tas.eval.ERA-Int.CRCM5-UQAM.day.NAM-44i.raw.nc
+cell_methods	"time: mean m2: mean"	tas.eval.ERA-Int.RegCM4.day.NAM-44i.raw.nc
+cell_methods	"time: mean"	tas.eval.ERA-Int.HIRHAM5.day.NAM-44i.raw.nc
+cell_methods	"time: mean"	tas.eval.ERA-Int.RCA4.day.NAM-44i.raw.nc
+cell_methods	"time:mean (interval:1200 seconds)"	tas.eval.ERA-Int.CanRCM4.day.NAM-44i.raw.nc
+cell_methods	"time: mean"	tas.eval.ERA-Int.WRF.day.NAM-44i.raw.nc

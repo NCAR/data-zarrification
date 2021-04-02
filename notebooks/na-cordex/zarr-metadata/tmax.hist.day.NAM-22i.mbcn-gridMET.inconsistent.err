@@ -1,0 +1,24 @@
+driving_experiment_name	"historical"	tmax.hist.MPI-ESM-MR.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"historical"	tmax.hist.GEMatm-Can.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"historical"	tmax.hist.MPI-ESM-LR.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"historical"	tmax.hist.CanESM2.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"historical"	tmax.hist.GEMatm-MPI.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"HadGEM2-ES"	tmax.hist.HadGEM2-ES.RegCM4.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"GFDL-ESM2M"	tmax.hist.GFDL-ESM2M.RegCM4.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"MPI-ESM-LR"	tmax.hist.MPI-ESM-LR.RegCM4.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"historical"	tmax.hist.CanESM2.CanRCM4.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"historical"	tmax.hist.HadGEM2-ES.WRF.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"historical"	tmax.hist.GFDL-ESM2M.WRF.day.NAM-22i.mbcn-gridMET.nc
+driving_experiment_name	"historical"	tmax.hist.MPI-ESM-LR.WRF.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: maximum"	tmax.hist.MPI-ESM-MR.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: maximum"	tmax.hist.GEMatm-Can.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: maximum"	tmax.hist.MPI-ESM-LR.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: maximum"	tmax.hist.CanESM2.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: maximum"	tmax.hist.GEMatm-MPI.CRCM5-UQAM.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: maximum"	tmax.hist.HadGEM2-ES.RegCM4.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: maximum m2: mean"	tmax.hist.GFDL-ESM2M.RegCM4.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: maximum m2: mean"	tmax.hist.MPI-ESM-LR.RegCM4.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time:maximum"	tmax.hist.CanESM2.CanRCM4.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: maximum"	tmax.hist.HadGEM2-ES.WRF.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: maximum"	tmax.hist.GFDL-ESM2M.WRF.day.NAM-22i.mbcn-gridMET.nc
+cell_methods	"time: maximum"	tmax.hist.MPI-ESM-LR.WRF.day.NAM-22i.mbcn-gridMET.nc

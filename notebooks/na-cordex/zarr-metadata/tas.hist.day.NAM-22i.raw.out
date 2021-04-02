@@ -219,3 +219,15 @@
              'MPI-ESM-LR.RegCM4': '1.4',
              'MPI-ESM-LR.WRF': '2.2',
              'MPI-ESM-MR.CRCM5-UQAM': '3.1'}}
+var metadata:
+{'cell_methods': 'time: mean',
+ 'long_name': 'Near-Surface Air Temperature',
+ 'remap': 'remapped via ESMF_regrid_with_weights: Higher-order Patch',
+ 'standard_name': 'air_temperature',
+ 'units': 'K'}
+lon metadata:
+{'long_name': 'longitude', 'standard_name': 'longitude', 'units': 'degrees_east'}
+time metadata:
+{'axis': 'T', 'bounds': 'time_bnds', 'calendar': 'gregorian', 'long_name': 'time', 'standard_name': 'time', 'units': 'days since 1949-12-1 00:00:00'}
+lat metadata:
+{'long_name': 'latitude', 'standard_name': 'latitude', 'units': 'degrees_north'}
